@@ -1,0 +1,22 @@
+body .left-nav {
+    background: lightpink;
+    float: left;
+    width: 10%;
+    height: 10000px;
+    position: fixed;
+}
+body .left-nav h1 {
+    font-size: 1.5rem;
+}
+body .left-nav .column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body .left-nav .column ul li {
+    
+}
+body .main-page {
+    background: lightblue;
+    height: 100000px;
+}
