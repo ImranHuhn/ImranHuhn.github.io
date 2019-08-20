@@ -17,6 +17,7 @@ body {
 }
 body .overlay {
     background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
+    overflow: hidden;
 }
 /* start left */
 body .left-nav {
@@ -111,22 +112,42 @@ body .main-page .row {
 }
 
 body .right-label {
-    position: absolute;
-    margin-left: 70%;
+    /* position: absolute; */
+    margin-left: 80%;
+    position: relative;
 }
 body .right-label .row {
-    /* position: absolute; */
+    transform: rotate(90deg);
+    position: absolute;
 }
 body .right-label .row .label-container {
     /* width: 400px; */
     width: 100%;
-    margin: 400px 0;
 }
 body .right-label .row .label-container h1 {
-    /* transform: rotate(90deg); */
+    
     text-align: center;
     color: white;
     opacity: .4;
     font-size: 7rem;
-    width: 670px;
+    /* width: 670px; */
+    padding: 400px 0;
+}
+body .right-label .row .label-container .label1 {
+    padding: 400px 0;
+}
+body .right-label .row .label-container .label2 {
+    padding: 800px 0;
+}
+body .right-label .row .label-container .label3 {
+    padding: 1200px 0;
+}
+body .right-label .row .label-container .label4 {
+    padding: 1600px 0;
+}
+body .right-label .row .label-container .label5 {
+    padding: 2000px 0;
+}
+body .right-label .row .label-container .label6 {
+    padding: 2400px 0;
 }
