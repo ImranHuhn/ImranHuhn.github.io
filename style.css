@@ -19,6 +19,7 @@ body .left-nav {
 }
 body .left-nav h1 {
     font-size: 1.8rem;
+    padding: 50px 0;
     text-align: center;
     font-weight: 700;
 }
@@ -27,6 +28,7 @@ body .left-nav .column ul {
     margin: 0;
     padding: 0;
     text-align: right;
+    padding: 150px 0;
 }
 body .left-nav .column ul li {
     padding: 10px 0;
@@ -44,6 +46,7 @@ body .left-nav .column ul li a .icon {
 body .left-nav .column .footer-icon {
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
 body .left-nav .column .footer-icon a {
     color: white;
@@ -68,6 +71,7 @@ body .left-nav .column .footer-text h6 span {
 }
 body .main-page {
     height: 100000px;
-    margin-left: 15%;
+    margin-left: 20%;
     color: white;
+    width: 80%;
 }
