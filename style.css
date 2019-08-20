@@ -75,3 +75,24 @@ body .main-page {
     color: white;
     width: 80%;
 }
+body .main-page .row {
+    text-align: center;
+    padding-top: 400px;
+}
+
+
+
+
+.gray{
+    background: gray;
+    border: 1px dashed white;
+    
+}
+
+.content-section {
+    margin-bottom: 700px;
+}
+.main-page h1 {
+    font-size: 8rem;
+    opacity: .2;
+}
