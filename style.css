@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+
 body {
     width: 100%;
     background: url('https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') no-repeat center center fixed; 
@@ -5,13 +7,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    
 }
 body .overlay {
     background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
 }
+/* start left */
 body .left-nav {
     float: left;
-    width: 15%;
+    width: 100%;
     height: 100%;
     position: fixed;
     padding: 0;
@@ -69,16 +75,29 @@ body .left-nav .column .footer-text h6 span {
     font-size: 1rem;
     letter-spacing: 1.5px;
 }
+/* end left */
+/* start middle */
 body .main-page {
-    height: 100000px;
+    height: 10000000000000px;
     margin-left: 20%;
     color: white;
-    width: 80%;
+    width: 100%;
+    padding-right: 0;
 }
 body .main-page .row {
     text-align: center;
-    padding-top: 400px;
+    /* padding-top: 400px; */
 }
+.main-page h1 {
+    text-align: center;
+    /* font-size: 6rem; */
+    /* opacity: .8; */
+    margin-top: 400px;
+}
+.content-section {
+    margin-bottom: 700px;
+}
+/* end middle */
 
 
 
@@ -89,10 +108,17 @@ body .main-page .row {
     
 }
 
-.content-section {
-    margin-bottom: 700px;
+body .right-label {
+    float: right;
+    position: relative;    
 }
-.main-page h1 {
-    font-size: 8rem;
-    opacity: .2;
+body .right-label .row .label-container {
+    margin-top: 400px;
+    margin-bottom: 700px;
+    position: relative;
+}
+body .right-label .row .label-container h1 {
+    transform: rotate(90deg);
+    position: absolute;
+    
 }
