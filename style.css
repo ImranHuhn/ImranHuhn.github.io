@@ -1,4 +1,9 @@
+@import "/reset.css";
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
 
 body {
     width: 100%;
@@ -9,7 +14,6 @@ body {
     background-size: cover;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
-    
 }
 body .overlay {
     background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
@@ -78,24 +82,22 @@ body .left-nav .column .footer-text h6 span {
 /* end left */
 /* start middle */
 body .main-page {
-    height: 10000000000000px;
-    margin-left: 20%;
+    height: 10000px;
+    /* margin-left: 20%; */
     color: white;
     width: 100%;
     padding-right: 0;
 }
 body .main-page .row {
     text-align: center;
-    /* padding-top: 400px; */
 }
 .main-page h1 {
     text-align: center;
-    /* font-size: 6rem; */
-    /* opacity: .8; */
-    margin-top: 400px;
+    font-size: 7rem;
+    margin: 400px 0;
 }
 .content-section {
-    margin-bottom: 700px;
+
 }
 /* end middle */
 
@@ -109,16 +111,22 @@ body .main-page .row {
 }
 
 body .right-label {
-    float: right;
-    position: relative;    
+    position: absolute;
+    margin-left: 70%;
+}
+body .right-label .row {
+    /* position: absolute; */
 }
 body .right-label .row .label-container {
-    margin-top: 400px;
-    margin-bottom: 700px;
-    position: relative;
+    /* width: 400px; */
+    width: 100%;
+    margin: 400px 0;
 }
 body .right-label .row .label-container h1 {
-    transform: rotate(90deg);
-    position: absolute;
-    
+    /* transform: rotate(90deg); */
+    text-align: center;
+    color: white;
+    opacity: .4;
+    font-size: 7rem;
+    width: 670px;
 }
