@@ -27,20 +27,39 @@ body .left-nav .column ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right;
     padding: 200px 0;
 }
 body .left-nav .column ul li {
     padding: 10px 0;
     font-weight: 700;
 }
-body .left-nav .column .icon-section {
+body .left-nav .column ul li a {
+    text-decoration: none;
+    color: white;
+}
+body .left-nav .column ul li a .icon {
+    padding-left: 10px;
+}
+body .left-nav .column .footer-icon {
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
-body .left-nav .column .icon-section .fab {
+body .left-nav .column .footer-icon .fab {
     font-size: 1.5rem;
     padding: 0 10px;
+}
+body .left-nav .column .footer-text h6 {
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+}
+body .left-nav .column .footer-text h6 span {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
 }
 body .main-page {
     height: 100000px;
