@@ -17,7 +17,8 @@ body {
 }
 body .overlay {
     background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
-    /* overflow: hidden; */
+    overflow: hidden;
+    height: 10000px;
 }
 /* start left */
 body .left-nav {
@@ -39,7 +40,7 @@ body .left-nav .column ul {
     margin: 0;
     padding: 0;
     text-align: right;
-    padding: 150px 0;
+    padding: 210px 0;
 }
 body .left-nav .column ul li {
     padding: 10px 0;
@@ -81,49 +82,13 @@ body .left-nav .column .footer-text h6 span {
     letter-spacing: 1.5px;
 }
 /* end left */
-/* start middle */
-body .main-page {
-    height: 10000px;
-    /* margin-left: 20%; */
-    color: white;
-    width: 100%;
-    padding-right: 0;
-}
-body .main-page .row {
-    text-align: center;
-}
-.main-page h1 {
-    text-align: center;
-    font-size: 7rem;
-    margin: 400px 0;
-}
-.content-section {
-
-}
-/* end middle */
-
-
-
-
-.gray{
-    background: gray;
-    border: 1px dashed white;
-    opacity: .5;
-    
-}
-
-
-
-
-
-
 
 /* start right side */
 body .overlay .right-label {
     margin-left: 35%;
-    width: 50%;
+    width: 45%;
     position: absolute;
-    /* padding-top: 500px; */
+    padding-right: 10px;
 }
 body .overlay .right-label .row {
     
@@ -137,42 +102,42 @@ body .right-label .row .label-container h1 {
 }
 body .overlay .right-label #home {
     padding-top: 400px;
-}
-body .overlay .right-label .row .label1 {
     margin-bottom: 400px;
 }
 body .overlay .right-label #top-projects {
     padding-top: 400px;
-}
-body .overlay .right-label .row .label2 {
     margin-bottom: 400px;
 }
 body .overlay .right-label #about-me {
     padding-top: 400px;
-}
-body .overlay .right-label .row .label3 {
     margin-bottom: 400px;
 }
 body .overlay .right-label #project-archive {
     padding-top: 400px;
-}
-body .overlay .right-label .row .label4 {
     margin-bottom: 400px;
 }
 body .overlay .right-label #resume {
     padding-top: 400px;
-}
-body .overlay .right-label .row .label5 {
     margin-bottom: 400px;
 }
 body .overlay .right-label #contact-me {
     padding-top: 400px;
-}
-body .overlay .right-label .row .label6 {
     margin-bottom: 400px;
+}
+body .overlay .right-label .row .label-container .mid-txt {
+    opacity: 1;
 }
 body .overlay .right-label .rotate {
     transform: rotate(90deg);
     text-align: center;
 }
 /* end right side */
+
+
+
+.gray{
+    background: gray;
+    border: 1px dashed white;
+    opacity: .5;
+    
+}
