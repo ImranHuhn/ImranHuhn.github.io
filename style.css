@@ -144,7 +144,7 @@ body .overlay .right-label .rotate {
 
 @media (max-width: 1200px) {
     body .overlay .right-label .rotate {
-        display: none;
+        display: none !important;
     }
 }
 @media (max-width: 992px) {
@@ -163,7 +163,7 @@ body .overlay .right-label .rotate {
 }
 @media (max-width: 787px) {
     body .overlay .left-nav {
-        display: none;
+        display: none !important;
     }
     body .overlay .column {
         margin-left: 0;
