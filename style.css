@@ -1,5 +1,6 @@
 @import "/reset.css";
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
 
 *{
     box-sizing: border-box;
@@ -91,6 +92,18 @@ body .left-nav .column ul li a .icon {
 body .left-nav .column ul li:hover a .icon {
     color: lightcoral;
 }
+body .left-nav .column ul li a .home-txt {
+    padding-right: 3px;
+}
+body .left-nav .column ul li a .about-txt {
+    padding-right: 3px;
+}
+body .left-nav .column ul li a .resume-txt {
+    padding-right: 3px;
+}
+body .left-nav .column ul li a .icon.resume {
+    padding-right: 2.5px;
+}
 body .left-nav .column .footer-icon {
     display: flex;
     justify-content: flex-end;
@@ -151,29 +164,35 @@ body .right-label .row .label-container img {
     height: auto;
     margin: 20px auto
 }
-body .overlay .right-label #home {
-    padding-top: 400px;
-    margin-bottom: 400px;
+body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
 }
-body .overlay .right-label #top-projects {
-    padding-top: 400px;
-    margin-bottom: 400px;
+body .bg .overlay .Rcontainer .column #about-me p {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .8px;
+    line-height: 1.5;
+}
+body .overlay .right-label #home {
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 body .overlay .right-label #about-me {
-    padding-top: 400px;
-    margin-bottom: 400px;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
-body .overlay .right-label #project-archive {
-    padding-top: 400px;
-    margin-bottom: 400px;
+body .overlay .right-label #top-projects {
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 body .overlay .right-label #resume {
-    padding-top: 400px;
-    margin-bottom: 400px;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 body .overlay .right-label #contact-me {
-    padding-top: 400px;
-    margin-bottom: 400px;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 body .overlay .right-label .row .label-container .mid-txt {
     opacity: 1;
@@ -276,7 +295,11 @@ body .overlay .right-label .rotate {
         max-width: 30%;
     }
 } */
-@media (max-width: 787px) {
-    
+@media (min-width: 767px) {
+    /* body .bg .overlay .Rcontainer .column .row .label-container {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
     
 }
+
