@@ -116,7 +116,7 @@ body .left-nav .column .footer-text h6 span {
 body .bg .overlay .Rcontainer {                        /* edited */
     height: 100vh;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 body .overlay .right-label {
     margin-left: 35%;
