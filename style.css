@@ -11,9 +11,9 @@
     letter-spacing: 3px;
 } */
 
-body {
-    /* width: 100%;
-    height: 100%; */
+body .bg {
+    width: 100%;
+    height: 100%;
     background: url('https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,16 +41,17 @@ body {
     -o-background-size: cover;
     background-size: cover;
   } */
-body .overlay {
+body .bg .overlay {
     background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
-    overflow: hidden;
+    /* overflow: hidden; */
+    width: 100%;
     height: 10000px;
     /* top: 0; */
 }
 /* start left */
 body .left-nav {
     float: left;
-    width: 100%;
+    width: 20%;
     height: 100%;
     position: fixed;
     padding: 0;
@@ -64,7 +65,7 @@ body .left-nav h1 {
 }
 body .left-nav .column ul {
     list-style-type: none;
-    margin: 0;
+    margin-right: 15%;
     padding: 0;
     text-align: right;
     padding: 210px 0;
@@ -112,6 +113,10 @@ body .left-nav .column .footer-text h6 span {
 /* end left */
 
 /* start right side */
+body .bg .overlay .Rcontainer {                        /* edited */
+    height: 100vh;
+    overflow: auto;
+}
 body .overlay .right-label {
     margin-left: 35%;
     width: 45%;
