@@ -45,7 +45,7 @@ body .overlay {
     background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
     overflow: hidden;
     height: 10000px;
-    top: 0;
+    /* top: 0; */
 }
 /* start left */
 body .left-nav {
