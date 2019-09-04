@@ -173,7 +173,7 @@ body .overlay .right-label .rotate {
     }
 }
 @media (max-width: 1024px) {
-    body:before {
+    /* body:before {
         content: "";
         display: block;
         position: fixed;
@@ -187,7 +187,7 @@ body .overlay .right-label .rotate {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-      }
+      } */
     body .overlay .left-nav {
         display: none !important;
     }
