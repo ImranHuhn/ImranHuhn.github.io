@@ -25,7 +25,7 @@ body {
     right: 0;
     left: 0;
 } */
-body:before {
+body {
     content: "";
     display: block;
     position: fixed;
