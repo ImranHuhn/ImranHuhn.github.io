@@ -117,6 +117,7 @@ body .bg .overlay .Rcontainer {                        /* edited */
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 body .overlay .right-label {
     margin-left: 35%;
