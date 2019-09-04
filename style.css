@@ -3,7 +3,7 @@
 
 *{
     box-sizing: border-box;
-    -webkit-overflow-scrolling: touch !important;
+    -webkit-overflow-scrolling: touch;
 }
 
 
