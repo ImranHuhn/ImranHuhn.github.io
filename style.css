@@ -80,10 +80,16 @@ body .left-nav .column ul li a {
     text-decoration: none;
     color: white;
 }
+body .left-nav .column ul li:hover a {
+    color: lightcoral;
+}
 body .left-nav .column ul li a .icon {
     margin-left: 10px;
     font-size: 1rem;
     color: white;
+}
+body .left-nav .column ul li:hover a .icon {
+    color: lightcoral;
 }
 body .left-nav .column .footer-icon {
     display: flex;
@@ -96,6 +102,9 @@ body .left-nav .column .footer-icon a {
 body .left-nav .column .footer-icon a .fab {
     font-size: 1.5rem;
     padding: 0 10px;
+}
+body .left-nav .column .footer-icon a:hover .fab {
+    color: lightcoral;
 }
 body .left-nav .column .footer-text {
     padding-bottom: 20px;
