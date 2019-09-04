@@ -3,6 +3,7 @@
 
 *{
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch !important;
 }
 
 
@@ -21,10 +22,10 @@ body .bg {
     background-size: cover;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
+    position: fixed;
     /* z-index: -10; */
     /* right: 0;
     left: 0; */
-    position: fixed;
 }
 /* body:before {
     content: "";
@@ -117,7 +118,7 @@ body .bg .overlay .Rcontainer {                        /* edited */
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch !important;
+    /* -webkit-overflow-scrolling: touch !important; */
 }
 body .overlay .right-label {
     margin-left: 35%;
