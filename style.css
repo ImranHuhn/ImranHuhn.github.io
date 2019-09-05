@@ -175,6 +175,22 @@ body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
 }
+body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
+    display: flex;
+    justify-content: center;
+}
+body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button {
+    margin: 0 10px;
+    width: 100px;
+}
+body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more {
+    display: flex;
+    justify-content: center;
+}
+body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
+    width: 50%;
+    margin: 50px auto;
+}
 body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
     display: none;
 }
@@ -185,6 +201,13 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .label2 {
 body .bg .overlay .Rcontainer .column #resume .label-container .label5 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
+}
+body .bg .overlay .Rcontainer .column #resume .label-container .open-resume {
+    display: flex;
+    justify-content: center;
+}
+body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
+    width: 50%;
 }
 body .bg .overlay .Rcontainer .column #contact-me .label-container .label6 {
     border-bottom: solid 1px white;
