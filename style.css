@@ -233,6 +233,10 @@ body .overlay .right-label #contact-me {
     padding-top: 100px;
     margin-bottom: 100px;
 }
+body .overlay .right-label #contact-me .label-container .contact-form {
+    display: flex;
+    justify-content: center
+}
 body .overlay .right-label .row .label-container .mid-txt {
     opacity: 1;
 }
