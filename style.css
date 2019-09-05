@@ -164,16 +164,19 @@ body .right-label .row .label-container img {
     height: auto;
     margin: 20px auto
 }
-body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
-    border-bottom: solid 1px white;
-    padding-bottom: 20px;
-}
 body .bg .overlay .Rcontainer .column #about-me p {
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
     letter-spacing: .8px;
     line-height: 1.5;
     text-align: justify
+}
+body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+}
+body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
+    display: none;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .label2 {
     border-bottom: solid 1px white;
@@ -295,24 +298,24 @@ body .overlay .right-label .rotate {
     }
 }
 /* @media (max-width: 992px) {
-    body .overlay .left-nav .column .logo {
-        max-width: 30%;
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
+        display: none;
     }
-    body .overlay .left-nav .column .sections {
-        max-width: 30%;
-    }
-    body .overlay .left-nav .column .footer-icon {
-        max-width: 30%;
-    }
-    body .overlay .left-nav .column .footer-text {
-        max-width: 30%;
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
+        display: block;
     }
 } */
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     /* body .bg .overlay .Rcontainer .column .row .label-container {
         flex: 0 0 100%;
         max-width: 100%;
     } */
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
+        display: none;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
+        display: block;
+    }
     
 }
 
