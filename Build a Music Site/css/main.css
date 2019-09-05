@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #19202a;
+}
+
+header {
+  position: absolute;
+  z-index: 3;
+  padding: 0 15px;
+  display: flex;
+  width: 100%;
+}
+header .logo {
+  width: 150px;
+}
+header .logo img {
+  width: 100%;
+}
+header nav {
+  margin-right: 180px;
+  margin-top: -70px;
+  align-self: center;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 20px;
+}
+
+#top-section {
+  position: relative;
+  height: 100vh;
+}
+#top-section .blurred-bg {
+  background-image: -webkit-linear-gradient(45deg, #19202a 0%, #19202a 33%, rgba(25, 32, 42, 0.96) 36%, rgba(25, 32, 42, 0.65) 57%, rgba(25, 32, 42, 0.47) 69%, rgba(176, 38, 183, 0.32) 79%, rgba(125, 185, 232, 0) 100%), url("./");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  filter: blur(1px) saturate(75%);
+  position: absolute;
+  z-index: 1;
+}
+#top-section .floating-img {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+#top-section .sevenlions-img {
+  width: 50%;
+}
+#top-section .sevenlions-img img {
+  width: 100%;
+  margin-bottom: -5px;
+  filter: contrast(90%);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#bio {
+  background: black;
+  position: relative;
+  z-index: 3;
+  padding: 100px 0;
+  max-height: 550px;
+}
+#bio .container {
+  display: flex;
+}
+#bio p {
+  color: white;
+  line-height: 1.8;
+  font-size: 0.9rem;
+  width: 200%;
+  padding: 0 50px;
+}
+#bio .logo-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bio .logo-centered img {
+  width: 100%;
+}
+
+#media {
+  padding: 100px 0;
+  background-image: url("../../public/img/bg5.jpg");
+  background-size: cover;
+}
+#media .title {
+  background: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+#media .videos {
+  padding: 80px 50px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 50px;
+}
+#media .videos .video {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 300px;
+  -webkit-box-shadow: 0px 0px 25px 0px #946c94;
+  -moz-box-shadow: 0px 0px 25px 0px #946c94;
+  box-shadow: 0px 0px 25px 0px #946c94;
+}
+#media .videos .video iframe {
+  height: 100%;
+}
+
+#music {
+  max-height: 550px;
+  position: relative;
+  color: white;
+  background: black;
+  padding: 100px 0;
+}
+#music .container {
+  display: flex;
+  padding: 0 50px;
+  position: relative;
+  z-index: 3;
+}
+#music .info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#music .info .title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#music .info .sub-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+#music .info .singles {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 30px;
+}
+#music .info .singles li {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#music .info .logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px 15px;
+  border-radius: 15px;
+  background: white;
+  padding: 5px 20px;
+  width: 55%;
+}
+#music .info .logos img {
+  width: 100%;
+}
+#music .album-cover {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#music .album-cover img {
+  width: 45%;
+  -webkit-box-shadow: 0px 6px 28px 18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 28px 18px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 28px 18px rgba(0, 0, 0, 0.75);
+}
+
+#tour {
+  background: black;
+  position: relative;
+  z-index: 4;
+}
+#tour .top-img {
+  background-image: url("../../public/img/bottom3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  filter: saturate(2) contrast(2.5) brightness(1) grayscale(1);
+}
+#tour .tourdates {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+#tour .tourdates .title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 0 80px;
+}
+#tour .tourdates .dates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 800px;
+}
+#tour .tourdates .dates li {
+  color: white;
+  font-size: 1.3rem;
+  padding: 0 20px;
+}
+#tour .tourdates .dates li span {
+  padding: 0 10px;
+}
+#tour .tourdates .dates li .city {
+  font-weight: 700;
+}
+#tour .tourdates .dates li .location {
+  font-size: 1rem;
+  font-weight: 300;
+}
+#tour .tourdates .dates li .date {
+  font-weight: 500;
+  color: #f14848;
+}
+
+footer {
+  background: #1b1b1b;
+  position: relative;
+  z-index: 4;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+footer img {
+  max-width: 45px;
+}
+footer a {
+  color: red;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

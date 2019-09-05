@@ -1,0 +1,321 @@
+@import "/reset.css";
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+*{
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+} */
+
+body .bg {
+    width: 100%;
+    height: 100%;
+    background: url('https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    position: fixed;
+    z-index: -10;
+    /* right: 0;
+    left: 0; */
+}
+/* body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+body .bg .overlay {
+    background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
+    /* overflow: hidden; */
+    width: 100%;
+    height: 10000px;
+    /* top: 0; */
+    z-index: -5;
+}
+/* start left */
+body .left-nav {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    padding: 0;
+    color: white;
+}
+body .left-nav h1 {
+    font-size: 1.8rem;
+    padding: 50px 0;
+    text-align: right;
+    /* font-weight: 700; */
+}
+body .left-nav .column ul {
+    list-style-type: none;
+    /* margin-right: 15%; */
+    padding: 0;
+    text-align: right;
+    padding: 210px 0;
+}
+body .left-nav .column ul li {
+    padding: 10px 0;
+    /* font-weight: 400; */
+}
+body .left-nav .column ul li a {
+    text-decoration: none;
+    color: white;
+}
+body .left-nav .column ul li:hover a {
+    color: lightcoral;
+}
+body .left-nav .column ul li a .icon {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: white;
+}
+body .left-nav .column ul li:hover a .icon {
+    color: lightcoral;
+}
+body .left-nav .column ul li a .home-txt {
+    padding-right: 3px;
+}
+body .left-nav .column ul li a .about-txt {
+    padding-right: 3px;
+}
+body .left-nav .column ul li a .resume-txt {
+    padding-right: 3px;
+}
+body .left-nav .column ul li a .icon.resume {
+    padding-right: 2.5px;
+}
+body .left-nav .column .footer-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+body .left-nav .column .footer-icon a {
+    color: white;
+}
+body .left-nav .column .footer-icon a .fab {
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+body .left-nav .column .footer-icon a:hover .fab {
+    color: lightcoral;
+}
+body .left-nav .column .footer-text {
+    padding-bottom: 20px;
+}
+body .left-nav .column .footer-text h6 {
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: right;
+}
+body .left-nav .column .footer-text h6 span {
+    color: white;
+    /* font-weight: 700; */
+    font-size: 1rem;
+    letter-spacing: 5px;
+    line-height: 3;
+}
+/* end left */
+
+/* start right side */
+body .bg .overlay .Rcontainer {                  /*right container*/     
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* -webkit-overflow-scrolling: touch !important; */
+}
+body .overlay .right-label {
+    margin-left: 35%;
+    width: 45%;
+    /* position: absolute; */
+    /* padding-right: 10px; */
+}
+body .right-label .row .label-container h1 {
+    text-align: center;
+    color: white;
+    opacity: .2;
+    font-size: 5rem;
+    width: 100%;
+}
+body .right-label .row .label-container img {
+    /* display: flex;
+    justify-content: center; */
+    /* z-index: 100; */
+    width: 100%;
+    height: auto;
+    margin: 20px auto
+}
+body .bg .overlay .Rcontainer .column #about-me p {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .8px;
+    line-height: 1.5;
+    text-align: justify
+}
+body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+}
+body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
+    display: none;
+}
+body .bg .overlay .Rcontainer .column #top-projects .label-container .label2 {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+}
+body .bg .overlay .Rcontainer .column #resume .label-container .label5 {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+}
+body .bg .overlay .Rcontainer .column #contact-me .label-container .label6 {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+}
+body .overlay .right-label #home {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+body .overlay .right-label #about-me {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+body .overlay .right-label #top-projects {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+body .overlay .right-label #resume {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+body .overlay .right-label #contact-me {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+body .overlay .right-label .row .label-container .mid-txt {
+    opacity: 1;
+}
+body .right-label .row .label-container .ro-container {    /*row container*/
+    width: 550px;
+    height: 100%;
+}
+body .overlay .right-label .rotate {
+    transform: rotate(90deg);
+    text-align: center;
+}
+/* end right side */
+
+
+
+.gray{
+    background: gray;
+    border: 1px dashed white;
+    opacity: .5;
+    
+}
+
+@media (min-width: 1600px) {
+    body .overlay .right-label {
+        width: 55%;
+    }
+    body .left-nav {
+        width: 12%;
+    }
+}
+@media (max-width: 1600px) {
+    body .overlay .right-label {
+        width: 50%;
+    }
+    body .left-nav {
+        width: 15%;
+    }
+}
+@media (max-width: 1350px) {
+    body .overlay .right-label {
+        width: 45%;
+    }
+}
+@media (max-width: 1200px) {
+    body .overlay .right-label .rotate {
+        display: none !important;
+    }
+    body .left-nav {
+        width: 18%;
+    }
+}
+@media (max-width: 1024px) {
+    /* body:before {
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: url(https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      } */
+    body .overlay .left-nav {
+        display: none !important;
+    }
+    body .overlay .column {
+        margin-left: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    body .overlay .right-label .row .label-container {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    body .overlay .right-label .row .label-container h1 {
+        width: 100%;
+    }
+    body .overlay .right-label #home {
+        padding-top: 100px;
+        margin-bottom: 500px;
+    }
+}
+/* @media (max-width: 992px) {
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
+        display: none;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
+        display: block;
+    }
+} */
+@media (max-width: 767px) {
+    /* body .bg .overlay .Rcontainer .column .row .label-container {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
+        display: none;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
+        display: block;
+    }
+    
+}
+
