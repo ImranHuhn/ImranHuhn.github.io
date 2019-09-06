@@ -6,6 +6,9 @@
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
 }
+input, select, textarea {
+    border-radius: 3px;
+}
 input[type=text], input[type=email], textarea {
 	width: 100%;
 }
@@ -13,8 +16,9 @@ button.btn-primary {
     width: 100%;
     height: 50px;
     /* background-color: #007bff; */
-    border: none;
+    /* border: none; */
     border-radius: 3px;
+    border-style: solid;
 }
 a.lg-btn {
     text-decoration: none;
@@ -98,7 +102,7 @@ body .left-nav .column ul li a {
     color: white;
 }
 body .left-nav .column ul li:hover a {
-    color: lightcoral;
+    color: #00b3ff;
 }
 body .left-nav .column ul li a .icon {
     margin-left: 10px;
@@ -106,7 +110,7 @@ body .left-nav .column ul li a .icon {
     color: white;
 }
 body .left-nav .column ul li:hover a .icon {
-    color: lightcoral;
+    color: #00b3ff;
 }
 body .left-nav .column ul li a .home-txt {
     padding-right: 3px;
@@ -133,7 +137,7 @@ body .left-nav .column .footer-icon a .fab {
     padding: 0 10px;
 }
 body .left-nav .column .footer-icon a:hover .fab {
-    color: lightcoral;
+    color: #00b3ff;
 }
 body .left-nav .column .footer-text {
     padding-bottom: 20px;
@@ -203,7 +207,8 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
     background-color: #007bff;
     color: white;
-    border: 1px solid #007bff;
+    border-style: solid ;
+    border-color: #007bff;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
     width: 50%;
@@ -270,17 +275,60 @@ body .overlay .right-label #contact-me .label-container .form-container .row {
 body .overlay .right-label #contact-me .label-container .form-container .name .sub-name {
     padding: 0;
 }
+body .overlay .right-label #contact-me .label-container .form-container .name .sub-name label {
+    margin-right: -20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .name .sub-name input {
+    width: 90%;
+    margin-left: 20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .name .sub-name .lname {
+    /* margin-left: 0; */
+}
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-email {
     padding: 0;
 }
+body .overlay .right-label #contact-me .label-container .form-container .email .sub-email label {
+    margin-right: -20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .email .sub-email input {
+    width: 90%;
+    margin-left: 20px;
+}
 body .overlay .right-label #contact-me .label-container .form-container .phone .sub-phone {
     padding: 0;
+}
+body .overlay .right-label #contact-me .label-container .form-container .email .sub-phone label {
+    margin-right: -20px;
 }
 body .overlay .right-label #contact-me .label-container .form-container .phone .second-container .third-container {
 	margin: 0;
 }
 body .overlay .right-label #contact-me .label-container .form-container .phone .second-container .third-container .tel-container {
 	padding: 0;
+}
+body .overlay .right-label #contact-me .label-container .form-container .phone .second-container .third-container .tel-container input {
+    width: 70%;
+    margin-left: 20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .subject .sub-subject {
+    padding: 0;
+}body .overlay .right-label #contact-me .label-container .form-container .email .sub-subject label {
+    margin-right: -20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .subject select {
+    width: 90% !important;
+    margin-left: 20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .message .sub-message {
+    padding: 0;
+}
+body .overlay .right-label #contact-me .label-container .form-container .email .sub-message label {
+    margin-right: -20px;
+}
+body .overlay .right-label #contact-me .label-container .form-container .message .sub-message textarea {
+    width: 95%;
+    margin-left: 20px;
 }
 body .overlay .right-label #contact-me .label-container .form-container .form-btn {
     display: flex;
@@ -290,13 +338,6 @@ body .overlay .right-label #contact-me .label-container .form-container .form-bt
 body .overlay .right-label #contact-me .label-container .form-container .form-btn button {
     width: 100%;
 }
-body .overlay .right-label #contact-me .label-container .form-container .subject .sub-subject {
-    padding: 0;
-}
-body .overlay .right-label #contact-me .label-container .form-container .message .sub-message {
-    padding: 0;
-}
-
 
 
 
@@ -393,7 +434,7 @@ body .overlay .right-label .rotate {
     body .overlay .right-label #contact-me .label-container .mobile-form-container{
         margin: 20px auto 500px;
         display: block;
-        width: 60%;
+        width: 100%;
     }
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row {
         margin: 5px 0;
@@ -421,6 +462,7 @@ body .overlay .right-label .rotate {
     }
     body .bg .overlay .Rcontainer .column #about-me p {
         font-size: .7rem;
+        text-align: left;
     }
     /* body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
         display: none;
