@@ -104,28 +104,28 @@
                                 <img class="gif" src="gifs/musictribute.gif">
                                 <img class="img" src="./img/7lions.PNG" alt="">
                                 <div class="proj-btn">
-                                    <button><a target="_blank" href="./01 project-section/Build a Music Site/index.html">Demo</a></button>
-                                    <button><a target="_blank" href="https://github.com/ImranHuhn/CodingPhase-projects/tree/master/Build%20a%20Music%20Site/Project10/MusicSite-Starter-Kit-2018-master/public">Code</a></button>
+                                    <a target="_blank" href="./01 project-section/Build a Music Site/index.html"><button>Demo</button></a>
+                                    <a target="_blank" href="https://github.com/ImranHuhn/CodingPhase-projects/tree/master/Build%20a%20Music%20Site/Project10/MusicSite-Starter-Kit-2018-master/public"><button>Code</button></a>
                                 </div>
                                     
                                 
                                 <img class="gif" src="gifs/tributepage.gif">
                                 <img class="img" src="./img/grimm.PNG" alt="">
                                 <div class="proj-btn">
-                                    <button><a target="_blank" href="./01 project-section/grimm-tribute-page-project/dist/index.html">Demo</a></button>
-                                    <button><a target="_blank" href="https://github.com/ImranHuhn/FCC-projects/tree/master/grimm-tribute-page-project">Code</a></button>
+                                    <a target="_blank" href="./01 project-section/grimm-tribute-page-project/dist/index.html"><button>Demo</button></a>
+                                    <a target="_blank" href="https://github.com/ImranHuhn/FCC-projects/tree/master/grimm-tribute-page-project"><button>Code</button></a>
                                 </div>
                                     
                                 
                                 <img class="gif" src="gifs/workoutapp.gif">
                                 <img class="img" src="./img/veg.PNG" alt="">
                                 <div class="proj-btn">
-                                    <button><a target="_blank" href="./01 project-section/Build a Responsive Web App/index.html">Demo</a></button>
-                                    <button><a target="_blank" href="https://github.com/ImranHuhn/FCC-projects/tree/master/grimm-tribute-page-project">Code</a></button>
+                                    <a target="_blank" href="./01 project-section/Build a Responsive Web App/index.html"><button>Demo</button></a>
+                                    <a target="_blank" href="https://github.com/ImranHuhn/FCC-projects/tree/master/grimm-tribute-page-project"><button>Code</button></a>
                                 </div>
                                 
                                 <div class="view-more">
-                                    <button><a href="./01 project-section/project-section.html">View More</a></button>
+                                    <a class="lg-btn" href="./01 project-section/project-section.html"><button class="btn-primary">View More</button></a>
                                 </div>
                                 
                             
@@ -141,7 +141,7 @@
                                 <h1 class="label5 mid-txt">Resume</h1>
                                 <a href="./pdf/portfolio_resume.pdf" target="_blank"><img src="./img/portfolio_resume.png" alt=""></a>
                                 <div class="open-resume">
-                                    <button><a href="./pdf/portfolio_resume.pdf" target="_blank">Open</a></button>
+                                    <a class="lg-btn" href="./pdf/portfolio_resume.pdf" target="_blank"><button class="btn-primary">Open</button></a>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-3 label-container">
@@ -153,41 +153,131 @@
                         <div class="row" id="contact-me">
                             <div class="col-xl-10 -col-lg-9 col-md-12 col-sm-12 col-12 label-container">
                                 <h1 class="label6 mid-txt">Get In Touch</h1>
-                                
-                                <div class="contact-form">
-                                    <form style="color: white;">
-                                        <div class="name">
-                                            <label for="name">Your Name *</label>
-                                            <input type="text" placeholder="First" required><input type="text" placeholder="Last" required>
+                                <div class="form-container">
+                                    <form>
+                                        <div class="name row">
+                                            <div class="sub-name col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="name">Your Name *</label>
+                                            </div>
+                                            <div class="sub-name col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <input type="text" placeholder="First" required>
+                                            </div>
+                                            <div class="sub-name col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <input type="text" placeholder="Last" required>
+                                            </div>
                                         </div>
-                                        <div class="email">
-                                            <label for="email">Your E-mail *</label>
-                                            <input type="email" placeholder="e.g. hello@email.com" required>
+                                        <div class="email row">
+                                            <div class="sub-email col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="email">Your E-mail *</label>
+                                            </div>
+                                            <div class="sub-email col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <input type="email" placeholder="e.g. hello@email.com" required>
+                                            </div>
+                                            <div class="sub-email col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4"></div>
                                         </div>
-                                        <div class="phone">
-                                            <label for="phone">Phone</label>
-                                            <input type="tel" placeholder="###"><input type="tel" placeholder="###"><input type="tel" placeholder="####">
+                                        <div class="phone row">
+                                            <div class="sub-phone first-container col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="phone">Phone</label>
+                                            </div>
+                                            <div class="sub-phone second-container col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="third-container row">
+                                                    <div class="tel-container col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                        <input type="text" placeholder="###">
+                                                    </div>
+                                                    <div class="tel-container col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                        <input type="text" placeholder="###">
+                                                    </div>
+                                                    <div class="tel-container col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                        <input type="text" placeholder="####">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4"></div>
                                         </div>
-                                        <div class="subject">
-                                            <label for="subject">Message Subject</label>
-                                            <select name="subject" id="subject">
-                                                <option value="other">Other</option>
-                                                <option value="employment">Employment</option>
-                                                <option value="services">Services</option>
-                                                <option value="issues">Issues</option>
-                                                <option value="comments">Comments</option>
-                                            </select>
-                                        </div>   
-                                        <div class="message">
-                                            <label for="message">Message</label>
-                                            <textarea name="message" id="message" cols="50" rows="10"></textarea>
-                                        </div>                               
-                                        <div class="form-btn">
-                                            <button>Submit</button>
+                                        <div class="subject row">
+                                            <div class="sub-subject col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="subject">Message Subject</label>
+                                            </div>
+                                            <div class="sub-subject col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <select name="subject" id="subject" style="width: 100%;">
+                                                    <option value="other">Other</option>
+                                                    <option value="employment">Employment</option>
+                                                    <option value="services">Services</option>
+                                                    <option value="issues">Issues</option>
+                                                    <option value="comments">Comments</option>
+                                                </select>
+                                            </div>
+                                            <div class="sub-subject col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4"></div>
+                                        </div>
+                                        <div class="message row">
+                                            <div class="sub-message col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="message">Message</label>
+                                            </div>
+                                            <div class="sub-message col-xl-8 -col-lg-8 col-md-8 col-sm-8 col-8">
+                                                <textarea name="message" id="message" cols="65" rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-8 -col-lg-8 col-md-8 col-sm-8 col-8"></div>
+                                            <div class="form-btn col-xl-4 -col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <a class="lg-btn" href=""><button class="btn-primary">Submit</button></a>
+                                            </div>
                                         </div>
                                     </form>
                                 </div>
-
+<!-- ///////////////start mobile size for contact form//////////////// -->
+                                <div class="mobile-form-container">
+                                    <form>
+                                        <div class="name row">
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <input type="text" placeholder="First Name" required>
+                                            </div>
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <input type="text" placeholder="Last Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="email row">
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <input type="email" placeholder="E-mail" required>
+                                            </div>
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12"></div>
+                                        </div>
+                                        <div class="phone row">
+                                            <div class="second-container col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="third-container row">
+                                                    <div class="tel-container col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <input type="text" placeholder="Phone: ###-###-####">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12"></div>
+                                        </div>
+                                        <div class="subject row">
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <select name="subject" id="subject" style="width: 100%;">
+                                                    <option value="other">Subject</option>
+                                                    <option value="other">Other</option>
+                                                    <option value="employment">Employment</option>
+                                                    <option value="services">Services</option>
+                                                    <option value="issues">Issues</option>
+                                                    <option value="comments">Comments</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12"></div>
+                                        </div>
+                                        <div class="message row">
+                                            <div class="col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <textarea name="message" id="message" cols="65" rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-btn col-xl-12 -col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <a class="lg-btn" href=""><button class="btn-primary">Submit</button></a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+<!-- ///////////////end mobile size for contact form//////////////// -->
                             </div>
                             <div class="col-xl-2 col-lg-3 label-container">
                                 <div class="ro-container">
