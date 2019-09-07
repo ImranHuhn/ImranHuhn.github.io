@@ -32,6 +32,9 @@ a.lg-btn {
     font-family: 'Oswald', sans-serif;
     width: 100%;
 }
+.mobile-input {
+    margin: 4px 0;
+}
 
 
 /* body {
@@ -311,7 +314,7 @@ body .overlay .right-label #contact-me .label-container .form-container {
     font-family: 'Oswald', sans-serif;
 }
 body .overlay .right-label #contact-me .label-container .form-container .row {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 body .overlay .right-label #contact-me .label-container .form-container .name .sub-name {
     padding: 0;
@@ -482,10 +485,10 @@ body .overlay .right-label .rotate {
         width: 90%;
     }
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row {
-        margin: 5px 0;
+        margin: 0px 0;
     }
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row input {
-        margin: 5px 0;
+        margin: 0px 0;
     }
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row .tel-container {
         padding: 0;
@@ -493,6 +496,8 @@ body .overlay .right-label .rotate {
     body .overlay .right-label #contact-me .label-container .mobile-form-container .form-btn {
         display: flex;
         justify-content: flex-end;
+        margin-top: 16px;
+
     } 
     body .overlay .right-label #contact-me .label-container .mobile-form-container .form-btn button {
         width: 100%;
@@ -516,6 +521,28 @@ body .overlay .right-label .rotate {
     body .bg .overlay .Rcontainer .column #about-me p {
         font-size: .7rem;
         text-align: justify;
+    }
+    body .overlay .right-label #home {
+        padding-top: 100px;
+        /* margin-bottom: 500px; */
+        margin: 0 auto 200px;
+        width: 90%;
+    }
+    body .bg .overlay .Rcontainer .column #about-me {
+        margin: 0 auto;
+        width: 85%;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects {
+        margin: 0 auto;
+        width: 85%;
+    }
+    body .bg .overlay .Rcontainer .column #resume {
+        margin: 0 auto;
+        width: 85%;
+    }
+    body .bg .overlay .Rcontainer .column #contact-me {
+        margin: 0 auto;
+        width: 85%;
     }
     /* body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
         display: none;
