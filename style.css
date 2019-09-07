@@ -494,8 +494,5 @@ body .overlay .right-label .rotate {
     body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
         display: block;
     }
-    body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
-        display: none;
-    }
 }
 
