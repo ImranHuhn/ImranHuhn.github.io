@@ -556,23 +556,23 @@ body .overlay .right-label .rotate {
         padding-top: 100px;
         /* margin-bottom: 500px; */
         margin: 0 auto 200px;
-        width: 95%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #about-me {
         margin: 0 auto;
-        width: 85%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #top-projects {
         margin: 0 auto;
-        width: 85%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #resume {
         margin: 0 auto;
-        width: 85%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #contact-me {
         margin: 0 auto;
-        width: 85%;
+        width: 100%;
     }
 }
 
