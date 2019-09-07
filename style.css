@@ -202,13 +202,18 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button {
     margin: 0 10px;
     width: 100px;
+    height: 25px;
     color: #007bff;
+    border-radius: 3px;
+    border: none;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
     background-color: #007bff;
     color: white;
-    border-style: solid ;
-    border-color: #007bff;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #0051a8;
+    border-width: 2px;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
     width: 50%;
@@ -481,6 +486,9 @@ body .overlay .right-label .rotate {
     }
     body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
         display: block;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
+        display: none;
     }
     
 }
