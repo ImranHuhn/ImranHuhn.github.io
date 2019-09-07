@@ -6,11 +6,16 @@
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
 }
-input, select, textarea {
+input, select {
     border-radius: 3px;
 }
+textarea {
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif !important;
+}
 input[type=text], input[type=email], textarea {
-	width: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
 }
 button.btn-primary {
     width: 100%;
@@ -302,8 +307,8 @@ body .overlay .right-label #contact-me .label-container .mobile-form-container {
 body .overlay .right-label #contact-me .label-container .form-container {
     width: 90%; 
     margin: 20px auto 0;
-    font-family: 'Lato', sans-serif;
     letter-spacing: .8px;
+    font-family: 'Oswald', sans-serif;
 }
 body .overlay .right-label #contact-me .label-container .form-container .row {
     margin: 10px 0;
@@ -449,30 +454,30 @@ body .overlay .right-label .rotate {
     body .overlay .right-label #home {
         padding-top: 100px;
         /* margin-bottom: 500px; */
-        margin: 0 auto 500px;
+        margin: 0 auto 200px;
         width: 90%;
     }
     body .bg .overlay .Rcontainer .column #about-me {
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #top-projects {
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #resume {
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
     }
     body .bg .overlay .Rcontainer .column #contact-me {
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
     }
     body .overlay .right-label #contact-me .label-container .form-container{
         display: none;
     }
     body .overlay .right-label #contact-me .label-container .mobile-form-container{
-        margin: 20px auto 500px;
+        margin: 20px auto 100px;
         display: block;
         width: 90%;
     }
@@ -530,5 +535,45 @@ body .overlay .right-label .rotate {
     body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
         display: block;
     }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        margin-top: -10px;
+        max-width: 100%;
+        display: block;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button {
+        width: 90%;
+        height: 35px;
+        margin: 5px 5%;
+        border-radius: 0px;
+        letter-spacing: 2px;
+    }
 }
+@media (max-width: 600px) {
+    body .overlay .right-label #home {
+        padding-top: 100px;
+        /* margin-bottom: 500px; */
+        margin: 0 auto 200px;
+        width: 95%;
+    }
+    body .bg .overlay .Rcontainer .column #about-me {
+        margin: 0 auto;
+        width: 85%;
+    }
+    body .bg .overlay .Rcontainer .column #top-projects {
+        margin: 0 auto;
+        width: 85%;
+    }
+    body .bg .overlay .Rcontainer .column #resume {
+        margin: 0 auto;
+        width: 85%;
+    }
+    body .bg .overlay .Rcontainer .column #contact-me {
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
 
