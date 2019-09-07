@@ -83,6 +83,8 @@ body .bg .overlay {
     z-index: -5;
 }
 /* start left */
+/* start left */
+/* start left */
 body .left-nav {
     float: left;
     width: 20%;
@@ -169,9 +171,51 @@ body .left-nav .column .footer-text h6 span {
     line-height: 3;
 }
 /* end left */
+/* end left */
+/* end left */
+/* start mobile navbar */
+/* start mobile navbar */
+/* start mobile navbar */
+body .bg .overlay .mobile-navbar {
+    /* position: fixed; */
+    background: #3d3d3d;
+    width: 100%;
+    height: auto;
+}
+body .bg .overlay .mobile-navbar .navbar-container {
+    padding: 15px 20px;
+}
+body .bg .overlay .mobile-navbar .logo-container {
+    /* float: left; */
+    display: inline-block;
+}
+body .bg .overlay .mobile-navbar .logo-container .logo {
+    color: white;
+}
+body .bg .overlay .mobile-navbar .menu-btn {
+    float: right;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+body .bg .overlay .mobile-navbar .menu-btn .fa-bars {
+    color: white;
+}
+body .bg .overlay .mobile-navbar .menu-options {
+    display: none;
+}
 
+
+
+/* end mobile navbar */
+/* end mobile navbar */
+/* end mobile navbar */
 /* start right side */
-body .bg .overlay .Rcontainer {                  /*right container*/     
+/* start right side */
+/* start right side */
+body .bg .overlay .Rcontainer::-webkit-scrollbar {
+    display: none;
+}
+body .bg .overlay .Rcontainer {  /*Rcontainer = right container*/     
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -202,7 +246,6 @@ body .right-label .row .label-container img {
     -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75); */
     /* border-radius: 3px; */
-    
 }
 body .bg .overlay .Rcontainer .column #about-me p {
     /* margin-top: 20px; */
@@ -405,11 +448,8 @@ body .overlay .right-label .rotate {
     text-align: center;
 }
 /* end right side */
-
-
-
-
-
+/* end right side */
+/* end right side */
 @media (min-width: 1600px) {
     body .overlay .right-label {
         width: 55%;
@@ -456,9 +496,9 @@ body .overlay .right-label .rotate {
         width: 100%;
     }
     body .overlay .right-label #home {
-        padding-top: 100px;
+        padding-top: 300px;
         /* margin-bottom: 500px; */
-        margin: 0 auto 200px;
+        margin: 0 auto 300px;
         width: 90%;
     }
     body .bg .overlay .Rcontainer .column #about-me {
@@ -511,8 +551,6 @@ body .overlay .right-label .rotate {
     body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
         width: 90%;
     }
-
-    
 }
 @media (max-width: 992px) {
     body .right-label .row .label-container h1 {
@@ -523,9 +561,9 @@ body .overlay .right-label .rotate {
         text-align: justify;
     }
     body .overlay .right-label #home {
-        padding-top: 100px;
+        padding-top: 250px;
         /* margin-bottom: 500px; */
-        margin: 0 auto 200px;
+        margin: 0 auto 100px;
         width: 90%;
     }
     body .bg .overlay .Rcontainer .column #about-me {
@@ -552,6 +590,7 @@ body .overlay .right-label .rotate {
     } */
 }
 @media (max-width: 767px) {
+    
     /* body .bg .overlay .Rcontainer .column .row .label-container {
         flex: 0 0 100%;
         max-width: 100%;
