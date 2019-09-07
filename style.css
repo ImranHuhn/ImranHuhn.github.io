@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
 
+
 *{
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
@@ -25,6 +26,7 @@ button.btn-primary {
     border-radius: 3px;
     border-style: solid;
     letter-spacing: 3px;
+    transition: all .3s ease-in-out;
 }
 a.lg-btn {
     text-decoration: none;
@@ -109,6 +111,7 @@ body .left-nav .column ul li {
 body .left-nav .column ul li a {
     text-decoration: none;
     color: white;
+    transition: all .4s ease-in-out;
 }
 body .left-nav .column ul li:hover a {
     color: #00b3ff;
@@ -117,6 +120,7 @@ body .left-nav .column ul li a .icon {
     margin-left: 10px;
     font-size: 1rem;
     color: white;
+    transition: all .4s ease-in-out;
 }
 body .left-nav .column ul li:hover a .icon {
     color: #00b3ff;
@@ -144,6 +148,7 @@ body .left-nav .column .footer-icon a {
 body .left-nav .column .footer-icon a .fab {
     font-size: 1.5rem;
     padding: 0 10px;
+    transition: all .4s ease-in-out;
 }
 body .left-nav .column .footer-icon a:hover .fab {
     color: #00b3ff;
@@ -170,6 +175,7 @@ body .bg .overlay .Rcontainer {                  /*right container*/
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     /* -webkit-overflow-scrolling: touch !important; */
 }
 body .overlay .right-label {
@@ -225,6 +231,7 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
     border: none;
     background: white;
     opacity: 1;
+    transition: all .5s ease-in-out;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
     background-color: #007bff;
@@ -299,7 +306,7 @@ body .overlay .right-label #resume {
 }
 body .overlay .right-label #contact-me {
     padding-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     color: white;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -386,12 +393,6 @@ body .overlay .right-label #contact-me .label-container .form-container .form-bt
     width: 90%;
     margin-left: 20px;
 }
-
-
-
-
-
-
 body .overlay .right-label .row .label-container .mid-txt {
     opacity: 1;
 }
@@ -497,7 +498,6 @@ body .overlay .right-label .rotate {
         display: flex;
         justify-content: flex-end;
         margin-top: 16px;
-
     } 
     body .overlay .right-label #contact-me .label-container .mobile-form-container .form-btn button {
         width: 100%;
@@ -556,12 +556,12 @@ body .overlay .right-label .rotate {
         flex: 0 0 100%;
         max-width: 100%;
     } */
-    body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
+    /* body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
         display: none;
     }
     body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
         display: block;
-    }
+    } */
     body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
         /* display: flex;
         flex-direction: column;
@@ -575,7 +575,7 @@ body .overlay .right-label .rotate {
         height: 35px;
         margin: 5px 5%;
         border-radius: 0px;
-        letter-spacing: 2px;
+        /* letter-spacing: 2px; */
     }
 }
 @media (max-width: 600px) {
