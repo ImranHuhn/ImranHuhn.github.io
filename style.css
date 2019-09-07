@@ -19,6 +19,7 @@ button.btn-primary {
     /* border: none; */
     border-radius: 3px;
     border-style: solid;
+    letter-spacing: 3px;
 }
 a.lg-btn {
     text-decoration: none;
@@ -177,23 +178,31 @@ body .right-label .row .label-container h1 {
     width: 100%;
 }
 body .right-label .row .label-container img {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     /* z-index: 100; */
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 20px auto;
+    /* -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75); */
+    /* border-radius: 3px; */
+    
 }
 body .bg .overlay .Rcontainer .column #about-me p {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: 'Lato', sans-serif;
     letter-spacing: .8px;
     line-height: 1.5;
     text-align: left;
+    width: 90%;
+    margin: 0 auto;
 }
 body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
     display: flex;
@@ -207,7 +216,7 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
     border-radius: 3px;
     border: none;
     background: white;
-    opacity: .9;
+    opacity: 1;
 }
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
     background-color: #007bff;
@@ -217,9 +226,21 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
     border-color: #0051a8;
     border-width: 2px;
 }
+body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-container {
+    /* background-color: lightgray;
+    opacity: .5; */
+    background:rgba(211,211,211,0.5);
+    padding: 1px 0px 20px 0px;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    width: 90%;
+    margin: 0 auto 30px;
+    border-radius: 3px;
+}
 body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
     width: 50%;
-    margin: 50px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -229,10 +250,17 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
 body .bg .overlay .Rcontainer .column #top-projects .label-container .label2 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 body .bg .overlay .Rcontainer .column #resume .label-container .label5 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+body .right-label .row .label-container .resume-img {
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
 }
 body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
     width: 50%;
@@ -243,26 +271,27 @@ body .bg .overlay .Rcontainer .column #resume .label-container .open-resume butt
 body .bg .overlay .Rcontainer .column #contact-me .label-container .label6 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 body .overlay .right-label #home {
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 400px;
+    margin-bottom: 350px;
 }
 body .overlay .right-label #about-me {
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 200px;
+    margin-bottom: 200px;
 }
 body .overlay .right-label #top-projects {
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 200px;
+    margin-bottom: 200px;
 }
 body .overlay .right-label #resume {
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 200px;
+    margin-bottom: 200px;
 }
 body .overlay .right-label #contact-me {
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 200px;
+    margin-bottom: 200px;
     color: white;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -271,7 +300,7 @@ body .overlay .right-label #contact-me .label-container .mobile-form-container {
     display: none;
 }
 body .overlay .right-label #contact-me .label-container .form-container {
-    width: 100%; 
+    width: 90%; 
     margin: 20px auto 0;
     font-family: 'Lato', sans-serif;
     letter-spacing: .8px;
@@ -342,8 +371,12 @@ body .overlay .right-label #contact-me .label-container .form-container .form-bt
     justify-content: flex-end;
     padding: 0;
 } 
+body .overlay .right-label #contact-me .label-container .form-container .sub-form-btn {
+    padding: 0;
+}
 body .overlay .right-label #contact-me .label-container .form-container .form-btn button {
-    width: 100%;
+    width: 90%;
+    margin-left: 20px;
 }
 
 
@@ -441,7 +474,7 @@ body .overlay .right-label .rotate {
     body .overlay .right-label #contact-me .label-container .mobile-form-container{
         margin: 20px auto 500px;
         display: block;
-        width: 100%;
+        width: 90%;
     }
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row {
         margin: 5px 0;
@@ -459,11 +492,14 @@ body .overlay .right-label .rotate {
     body .overlay .right-label #contact-me .label-container .mobile-form-container .form-btn button {
         width: 100%;
     }
+    body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more {
+        margin-top: -10px;
+    }
     body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
-        width: 100%;
+        width: 90%;
     }
     body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
-        width: 100%;
+        width: 90%;
     }
 
     
