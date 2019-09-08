@@ -540,7 +540,7 @@ body .overlay .right-label .rotate {
         display: block;
     }
     body .bg .overlay .mobile-navbar .menu-options {
-        display: none;
+        /* display: none; */
     }
     body .overlay .left-nav {
         display: none !important;
