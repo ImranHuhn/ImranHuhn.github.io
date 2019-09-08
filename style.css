@@ -503,6 +503,30 @@ body .overlay .right-label .rotate {
     transform: rotate(90deg);
     text-align: center;
 }
+
+body .bg .overlay .mobile-footer {
+    display: none;
+    width: 100%;
+    height: 200px;
+    /* background-color: #3d3d3d; */
+    background:rgba(61,61,61,0.8);
+}
+body .bg .overlay .mobile-footer .footer-txt {
+    width: 100%;
+    padding: 0 auto;
+}
+body .bg .overlay .mobile-footer .footer-txt h6 {
+    color: white;
+    text-align: center; 
+    padding: 20px 0;  
+    line-height: 1.5;   
+    font-weight: 300;  
+}
+body .bg .overlay .mobile-footer .footer-txt h6 span {
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
 /* end right side */
 /* end right side */
 /* end right side */
@@ -540,7 +564,7 @@ body .overlay .right-label .rotate {
         display: block;
     }
     body .bg .overlay .mobile-navbar .menu-options {
-        /* display: none; */
+        display: none;
     }
     body .overlay .left-nav {
         display: none !important;
@@ -612,6 +636,9 @@ body .overlay .right-label .rotate {
     }
     body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
         width: 90%;
+    }
+    body .bg .overlay .mobile-footer {
+        display: block;
     }
 }
 @media (max-width: 992px) {
