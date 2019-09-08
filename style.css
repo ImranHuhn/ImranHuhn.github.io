@@ -206,15 +206,24 @@ body .bg .overlay .mobile-navbar .menu-options {
     background: linear-gradient(155deg, rgba(102,126,234,1) 0%, rgba(116,80,170,1) 72%);
     width: 60%;
 }
+body .bg .overlay .mobile-navbar .menu-options .x-block {
+    position: relative;
+    /* display: block; */
+}
 body .bg .overlay .mobile-navbar .menu-options .x-container {
     cursor: pointer;
     color: white;
     padding: 15px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    /* position: absolute; */
     /* background-color: #3d3d3d; */
     /* display: flex;
     justify-content: flex-end; */
     /* display: inline-block; */
-    float: right;
+    /* float: right; */
     /* transition: all .3s ease-in-out; */
 }
 body .bg .overlay .mobile-navbar .menu-options .x-container .fa-times {
@@ -225,9 +234,10 @@ body .bg .overlay .mobile-navbar .menu-options .x-container:hover .fa-times {
 }
 body .bg .overlay .mobile-navbar .menu-options .menu-list {
     /* background-color: #3d3d3d; */
-    padding: 20px 40%;
+    /* padding: 20px 0; */
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 body .bg .overlay .mobile-navbar .menu-options .menu-list ul li {
     color: white;
