@@ -196,6 +196,7 @@ body .bg .overlay .mobile-navbar .menu-btn {
 }
 body .bg .overlay .mobile-navbar .menu-btn .fa-bars {
     color: white;
+    font-size: 1.3rem;
 }
 body .bg .overlay .mobile-navbar .menu-options {
     position: absolute;
@@ -205,6 +206,7 @@ body .bg .overlay .mobile-navbar .menu-options {
     background: rgb(102,126,234);
     background: linear-gradient(155deg, rgba(102,126,234,1) 0%, rgba(116,80,170,1) 72%);
     width: 60%;
+    height: 100vh;
 }
 body .bg .overlay .mobile-navbar .menu-options .x-block {
     position: relative;
@@ -228,23 +230,31 @@ body .bg .overlay .mobile-navbar .menu-options .x-container {
 }
 body .bg .overlay .mobile-navbar .menu-options .x-container .fa-times {
     transition: all .3s ease-in-out;
+    font-size: 1.3rem;
 }
 body .bg .overlay .mobile-navbar .menu-options .x-container:hover .fa-times {
     color: #00b3ff;
 }
 body .bg .overlay .mobile-navbar .menu-options .menu-list {
     /* background-color: #3d3d3d; */
-    /* padding: 20px 0; */
+    /* padding: 50% 0; */
     display: flex;
     justify-content: center;
     text-align: center;
 }
+body .bg .overlay .mobile-navbar .menu-options .menu-list ul {
+    width: 80%;
+    padding: 50% 0;
+}
 body .bg .overlay .mobile-navbar .menu-options .menu-list ul li {
     color: white;
     cursor: pointer;
-    padding: 5px;
-    margin: 20px;
+    padding: 10px 0;
+    margin: 20px 0;
     transition: all .3s ease-in-out;
+    border-bottom: solid 1px lightgray;
+    width: 100%;
+    /* font-size: 1.5rem; */
 }
 body .bg .overlay .mobile-navbar .menu-options .menu-list ul li:hover {
     color: #00b3ff;
@@ -529,6 +539,9 @@ body .overlay .right-label .rotate {
     body .bg .overlay .mobile-navbar {
         display: block;
     }
+    body .bg .overlay .mobile-navbar .menu-options {
+        display: none;
+    }
     body .overlay .left-nav {
         display: none !important;
     }
@@ -650,6 +663,10 @@ body .overlay .right-label .rotate {
     body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
         display: block;
     } */
+    body .bg .overlay .mobile-navbar .menu-options .menu-list ul {
+        /* background-color: #3d3d3d; */
+        padding: 50% 0;
+    }
     body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
         /* display: flex;
         flex-direction: column;
