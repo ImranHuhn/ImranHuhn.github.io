@@ -102,7 +102,7 @@ body .left-nav .column ul {
 }
 body .left-nav .column ul li {
     padding: 10px 0;
-    /* font-weight: 400; */
+    font-weight: 300;
 }
 body .left-nav .column ul li a {
     text-decoration: none;
@@ -111,6 +111,7 @@ body .left-nav .column ul li a {
 }
 body .left-nav .column ul li:hover a {
     color: #00b3ff;
+    font-weight: 700;
 }
 body .left-nav .column ul li a .icon {
     margin-left: 10px;
