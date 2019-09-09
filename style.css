@@ -344,6 +344,9 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
     border-color: #0051a8;
     border-width: 2px;
 }
+body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button i {
+    padding-right: 5px;
+}
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-container {
     /* background-color: lightgray;
     opacity: .5; */
