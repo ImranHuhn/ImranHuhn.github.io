@@ -1,0 +1,31 @@
+what I did:
+-add and edit the code closesly to how joe was doing.
+
+lessons:
+-when implementing a font, you must imbed the code into the current html file you want the font in. ex: look at the "Megrim" font in the "all-tasks.html" file
+-if the terminal doesn't work in the text editor then use bash
+-do not use sudo when using "$ npm run watch", it'll need permission and interfere when you commit in sourcetree.
+-when a css element with a class name is outside of the nested elements, that means that it will be applied to all elements with that given name/class. ex:look at ".container"
+-in html if two divs have the same indentation, then the css element are suppose to be stacked. if the divs are a parent and a child, then in css the elements are supposed to be nested
+-if you don't see changes to your webpage, restart the "$ npm run watch" command
+-if you have issues seperate sections when using margin, it is usually bc you have "background: 'some color';" in the parent element. you can't see the seperation bc the color are the same.
+-in the bowsers devtool, directly at the bottom of the current element(child element) youre looking at, is the parent element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

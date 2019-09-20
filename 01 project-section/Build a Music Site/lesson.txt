@@ -1,0 +1,3 @@
+-if the elements are leaking outside of the boundaries of the window and not adjusting accordingly, use "box-sizing: border-box;" on all element by using "*" selector
+-enable "word wrap" in the settings to keep it with in the the size of the window.
+-if the webpage's content have a narrow width, so should all other sections. the the columns should align 
