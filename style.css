@@ -3,21 +3,28 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
 
 
-*{
+* {
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
 }
-input, select {
+
+input,
+select {
     border-radius: 3px;
 }
+
 textarea {
     border-radius: 3px;
     font-family: 'Lato', sans-serif !important;
 }
-input[type=text], input[type=email], textarea {
+
+input[type=text],
+input[type=email],
+textarea {
     width: 100%;
     font-family: 'Oswald', sans-serif;
 }
+
 button.btn-primary {
     width: 100%;
     height: 50px;
@@ -28,20 +35,23 @@ button.btn-primary {
     letter-spacing: 3px;
     transition: all .3s ease-in-out;
 }
+
 a.lg-btn {
     text-decoration: none;
     color: white;
     font-family: 'Oswald', sans-serif;
     width: 100%;
 }
+
 .mobile-input {
     margin: 4px 0;
 }
+
 body .bg {
     min-width: 200px;
     width: 100%;
     height: 100%;
-    background: url('https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') no-repeat center center; 
+    background: url('https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,6 +63,7 @@ body .bg {
     /* right: 0;
     left: 0; */
 }
+
 /* body:before {
     content: "";
     display: block;
@@ -69,13 +80,14 @@ body .bg {
     background-size: cover;
   } */
 body .bg .overlay {
-    background: -webkit-linear-gradient(left, rgba(36,16,81,.7) 0%,rgba(130,75,140,.7) 86%,rgba(130,75,140,.6) 100%);
+    background: -webkit-linear-gradient(left, rgba(36, 16, 81, .7) 0%, rgba(130, 75, 140, .7) 86%, rgba(130, 75, 140, .6) 100%);
     /* overflow: hidden; */
     width: 100%;
     height: 10000px;
     /* top: 0; */
     z-index: -5;
 }
+
 /* start left */
 /* start left */
 /* start left */
@@ -87,12 +99,14 @@ body .left-nav {
     padding: 0;
     color: white;
 }
+
 body .left-nav h1 {
     font-size: 1.8rem;
     padding: 50px 0;
     text-align: right;
     /* font-weight: 700; */
 }
+
 body .left-nav .column ul {
     list-style-type: none;
     /* margin-right: 15%; */
@@ -100,64 +114,80 @@ body .left-nav .column ul {
     text-align: right;
     padding: 210px 0;
 }
+
 body .left-nav .column ul li {
     padding: 10px 0;
     font-weight: 300;
 }
+
 body .left-nav .column ul li a {
     text-decoration: none;
     color: white;
     transition: all .4s ease-in-out;
 }
+
 body .left-nav .column ul li:hover a {
     color: #00b3ff;
     font-weight: 700;
 }
+
 body .left-nav .column ul li a .icon {
     margin-left: 10px;
     font-size: 1rem;
     color: white;
     transition: all .4s ease-in-out;
 }
+
 body .left-nav .column ul li:hover a .icon {
     color: #00b3ff;
 }
+
 body .left-nav .column ul li a .home-txt {
     padding-right: 3px;
 }
+
 body .left-nav .column ul li a .about-txt {
     padding-right: 3px;
 }
+
 body .left-nav .column ul li a .resume-txt {
     padding-right: 3px;
 }
+
 body .left-nav .column ul li a .icon.resume {
     padding-right: 2.5px;
 }
+
 body .left-nav .column .footer-icon {
     display: flex;
     justify-content: flex-end;
     padding: 20px 0;
 }
+
 body .left-nav .column .footer-icon a {
     color: white;
 }
+
 body .left-nav .column .footer-icon a .fab {
     font-size: 1.5rem;
     padding: 0 10px;
     transition: all .4s ease-in-out;
 }
+
 body .left-nav .column .footer-icon a:hover .fab {
     color: #00b3ff;
 }
+
 body .left-nav .column .footer-text {
     padding-bottom: 20px;
 }
+
 body .left-nav .column .footer-text h6 {
     font-size: .8rem;
     font-weight: 400;
     text-align: right;
 }
+
 body .left-nav .column .footer-text h6 span {
     color: white;
     /* font-weight: 700; */
@@ -165,6 +195,7 @@ body .left-nav .column .footer-text h6 span {
     letter-spacing: 5px;
     line-height: 3;
 }
+
 /* end left */
 /* end left */
 /* end left */
@@ -176,47 +207,55 @@ body .bg .overlay .mobile-navbar {
     width: 100%;
     height: auto;
     position: relative;
-    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
     z-index: 100;
 }
+
 body .bg .overlay .mobile-navbar .navbar-container {
     background: #3d3d3d;
     padding: 15px 20px;
     /* border-bottom: solid 1px #000000; */
 }
+
 body .bg .overlay .mobile-navbar .logo-container {
     /* float: left; */
     display: inline-block;
 }
+
 body .bg .overlay .mobile-navbar .logo-container .logo {
     color: white;
 }
+
 body .bg .overlay .mobile-navbar .menu-btn {
     float: right;
     cursor: pointer;
     /* display: flex;
     justify-content: flex-end; */
 }
+
 body .bg .overlay .mobile-navbar .menu-btn .fa-bars {
     color: white;
     font-size: 1.3rem;
 }
+
 body .bg .overlay .mobile-navbar .menu-options {
     position: absolute;
     top: 0;
     right: 0;
     z-index: 100;
-    background: rgb(102,126,234);
-    background: linear-gradient(155deg, rgba(102,126,234,1) 0%, rgba(116,80,170,1) 72%);
+    background: rgb(102, 126, 234);
+    background: linear-gradient(155deg, rgba(102, 126, 234, 1) 0%, rgba(116, 80, 170, 1) 72%);
     width: 60%;
     height: 100vh;
 }
+
 body .bg .overlay .mobile-navbar .menu-options .x-block {
     position: relative;
     /* display: block; */
 }
+
 body .bg .overlay .mobile-navbar .menu-options .x-container {
     cursor: pointer;
     color: white;
@@ -233,13 +272,16 @@ body .bg .overlay .mobile-navbar .menu-options .x-container {
     /* float: right; */
     /* transition: all .3s ease-in-out; */
 }
+
 body .bg .overlay .mobile-navbar .menu-options .x-container .fa-times {
     transition: all .3s ease-in-out;
     font-size: 1.3rem;
 }
+
 body .bg .overlay .mobile-navbar .menu-options .x-container:hover .fa-times {
     color: #00b3ff;
 }
+
 body .bg .overlay .mobile-navbar .menu-options .menu-list {
     /* background-color: #3d3d3d; */
     /* padding: 50% 0; */
@@ -247,10 +289,12 @@ body .bg .overlay .mobile-navbar .menu-options .menu-list {
     justify-content: center;
     text-align: center;
 }
+
 body .bg .overlay .mobile-navbar .menu-options .menu-list ul {
     width: 80%;
     padding: 50% 0;
 }
+
 body .bg .overlay .mobile-navbar .menu-options .menu-list ul li {
     color: white;
     cursor: pointer;
@@ -261,6 +305,7 @@ body .bg .overlay .mobile-navbar .menu-options .menu-list ul li {
     width: 100%;
     /* font-size: 1.5rem; */
 }
+
 body .bg .overlay .mobile-navbar .menu-options .menu-list ul li:hover {
     color: #00b3ff;
 }
@@ -276,19 +321,23 @@ body .bg .overlay .mobile-navbar .menu-options .menu-list ul li:hover {
 body .bg .overlay .Rcontainer::-webkit-scrollbar {
     display: none;
 }
-body .bg .overlay .Rcontainer {  /*Rcontainer = right container*/     
+
+body .bg .overlay .Rcontainer {
+    /*Rcontainer = right container*/
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
     /* -webkit-overflow-scrolling: touch !important; */
 }
+
 body .overlay .right-label {
     margin-left: 35%;
     width: 45%;
     /* position: absolute; */
     /* padding-right: 10px; */
 }
+
 body .right-label .row .label-container h1 {
     text-align: center;
     color: white;
@@ -296,6 +345,7 @@ body .right-label .row .label-container h1 {
     font-size: 5rem;
     width: 100%;
 }
+
 body .right-label .row .label-container img {
     display: flex;
     justify-content: center;
@@ -308,6 +358,7 @@ body .right-label .row .label-container img {
     box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75); */
     /* border-radius: 3px; */
 }
+
 body .bg .overlay .Rcontainer .column #about-me p {
     /* margin-top: 20px; */
     font-family: 'Lato', sans-serif;
@@ -317,15 +368,18 @@ body .bg .overlay .Rcontainer .column #about-me p {
     width: 90%;
     margin: 0 auto;
 }
+
 body .bg .overlay .Rcontainer .column #about-me .label-container .label3 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
     display: flex;
     justify-content: center;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button {
     margin: 0 10px;
     width: 100px;
@@ -337,6 +391,7 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
     opacity: 1;
     transition: all .5s ease-in-out;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button:hover {
     background-color: #007bff;
     color: white;
@@ -345,72 +400,94 @@ body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn b
     border-color: #0051a8;
     border-width: 2px;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button i {
     padding-right: 5px;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-container {
     /* background-color: lightgray;
     opacity: .5; */
-    background:rgba(211,211,211,0.5);
+    background: rgba(211, 211, 211, 0.5);
     padding: 1px 0px 20px 0px;
-    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
     width: 90%;
     margin: 0 auto 30px;
     border-radius: 3px;
 }
+
+body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-container h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
     width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .img {
     display: none;
 }
+
 body .bg .overlay .Rcontainer .column #top-projects .label-container .label2 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
+
 body .bg .overlay .Rcontainer .column #resume .label-container .label5 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
+
 body .right-label .row .label-container .resume-img {
-    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
 }
+
 body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
     width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
+
 body .bg .overlay .Rcontainer .column #contact-me .label-container .label6 {
     border-bottom: solid 1px white;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
+
 body .overlay .right-label #home {
     padding-top: 400px;
     margin-bottom: 350px;
 }
+
 body .overlay .right-label #about-me {
     padding-top: 200px;
     margin-bottom: 200px;
 }
+
 body .overlay .right-label #top-projects {
     padding-top: 200px;
     margin-bottom: 200px;
 }
+
 body .overlay .right-label #resume {
     padding-top: 200px;
     margin-bottom: 200px;
 }
+
 body .overlay .right-label #contact-me {
     padding-top: 200px;
     margin-bottom: 300px;
@@ -418,95 +495,124 @@ body .overlay .right-label #contact-me {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
 body .overlay .right-label #contact-me .label-container .mobile-form-container {
     display: none;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container {
-    width: 90%; 
+    width: 90%;
     margin: 20px auto 0;
     letter-spacing: .8px;
     font-family: 'Oswald', sans-serif;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .row {
     margin: 15px 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .name .sub-name {
     padding: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .name .sub-name label {
     margin-right: -20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .name .sub-name input {
     width: 90%;
     margin-left: 20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .name .sub-name .lname {
     /* margin-left: 0; */
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-email {
     padding: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-email label {
     margin-right: -20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-email input {
     width: 90%;
     margin-left: 20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .phone .sub-phone {
     padding: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-phone label {
     margin-right: -20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .phone .second-container .third-container {
-	margin: 0;
+    margin: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .phone .second-container .third-container .tel-container {
-	padding: 0;
+    padding: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .phone .second-container .third-container .tel-container input {
     width: 70%;
     margin-left: 20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .subject .sub-subject {
     padding: 0;
-}body .overlay .right-label #contact-me .label-container .form-container .email .sub-subject label {
+}
+
+body .overlay .right-label #contact-me .label-container .form-container .email .sub-subject label {
     margin-right: -20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .subject select {
     width: 90% !important;
     margin-left: 20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .message .sub-message {
     padding: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-message label {
     margin-right: -20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .message .sub-message textarea {
     width: 95%;
     margin-left: 20px;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .form-btn {
     display: flex;
     justify-content: flex-end;
     padding: 0;
-} 
+}
+
 body .overlay .right-label #contact-me .label-container .form-container .sub-form-btn {
     padding: 0;
 }
+
 body .overlay .right-label #contact-me .label-container .form-container .form-btn button {
     width: 90%;
     margin-left: 20px;
 }
+
 body .overlay .right-label .row .label-container .mid-txt {
     opacity: 1;
 }
-body .right-label .row .label-container .ro-container {    /*row container*/
+
+body .right-label .row .label-container .ro-container {
+    /*row container*/
     width: 550px;
     height: 100%;
 }
+
 body .overlay .right-label .rotate {
     transform: rotate(90deg);
     text-align: center;
@@ -517,19 +623,22 @@ body .bg .overlay .mobile-footer {
     width: 100%;
     height: 250px;
     /* background-color: #3d3d3d; */
-    background:rgba(61,61,61,0.8);
+    background: rgba(61, 61, 61, 0.8);
 }
+
 body .bg .overlay .mobile-footer .footer-txt {
     width: 100%;
     padding: 0 auto;
 }
+
 body .bg .overlay .mobile-footer .footer-txt h6 {
     color: white;
-    text-align: center; 
-    padding: 20px 0;  
-    line-height: 1.5;   
-    font-weight: 300;  
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.5;
+    font-weight: 300;
 }
+
 body .bg .overlay .mobile-footer .footer-txt h6 span {
     line-height: 2;
     font-size: 1.5rem;
@@ -542,143 +651,179 @@ body .bg .overlay .mobile-footer .footer-txt h6 span {
     body .overlay .right-label {
         width: 55%;
     }
+
     body .left-nav {
         width: 12%;
     }
 }
+
 @media (max-width: 1600px) {
     body .overlay .right-label {
         width: 50%;
     }
+
     body .left-nav {
         width: 15%;
     }
 }
+
 @media (max-width: 1350px) {
     body .overlay .right-label {
         width: 45%;
     }
 }
+
 @media (max-width: 1200px) {
     body .overlay .right-label .rotate {
         display: none !important;
     }
+
     body .left-nav {
         width: 18%;
     }
 }
+
 @media (max-width: 1024px) {
     body .bg .overlay .mobile-navbar {
         display: block;
     }
+
     body .bg .overlay .mobile-navbar .menu-options {
         display: none;
     }
+
     body .overlay .left-nav {
         display: none !important;
     }
+
     body .overlay .column {
         /* margin-left: 0; */
         margin: 0 auto;
         width: 100%;
     }
+
     body .overlay .right-label .row .label-container {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
     body .overlay .right-label .row .label-container h1 {
         width: 100%;
     }
+
     body .overlay .right-label #home {
         padding-top: 300px;
         /* margin-bottom: 500px; */
         margin: 0 auto 300px;
         width: 90%;
     }
+
     body .bg .overlay .Rcontainer .column #about-me {
         margin: 0 auto;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects {
         margin: 0 auto;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #resume {
         margin: 0 auto;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #contact-me {
         margin: 0 auto;
         width: 100%;
     }
-    body .overlay .right-label #contact-me .label-container .form-container{
+
+    body .overlay .right-label #contact-me .label-container .form-container {
         display: none;
     }
-    body .overlay .right-label #contact-me .label-container .mobile-form-container{
+
+    body .overlay .right-label #contact-me .label-container .mobile-form-container {
         margin: 20px auto 100px;
         display: block;
         width: 90%;
     }
+
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row {
         margin: 0px 0;
     }
+
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row input {
         margin: 0px 0;
     }
+
     body .overlay .right-label #contact-me .label-container .mobile-form-container .row .tel-container {
         padding: 0;
     }
+
     body .overlay .right-label #contact-me .label-container .mobile-form-container .form-btn {
         display: flex;
         justify-content: flex-end;
         margin-top: 16px;
-    } 
+    }
+
     body .overlay .right-label #contact-me .label-container .mobile-form-container .form-btn button {
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more {
         margin-top: -10px;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects .label-container .view-more button {
         width: 90%;
     }
+
     body .bg .overlay .Rcontainer .column #resume .label-container .open-resume button {
         width: 90%;
     }
+
     body .bg .overlay .mobile-footer {
         display: block;
     }
 }
+
 @media (max-width: 992px) {
     body .right-label .row .label-container h1 {
         font-size: 3rem;
     }
+
     body .bg .overlay .Rcontainer .column #about-me p {
         font-size: .7rem;
         text-align: justify;
     }
+
     body .overlay .right-label #home {
         padding-top: 250px;
         /* margin-bottom: 500px; */
         margin: 0 auto 100px;
         width: 90%;
     }
+
     body .bg .overlay .Rcontainer .column #about-me {
         margin: 0 auto;
         width: 85%;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects {
         margin: 0 auto;
         width: 85%;
     }
+
     body .bg .overlay .Rcontainer .column #resume {
         margin: 0 auto;
         width: 85%;
     }
+
     body .bg .overlay .Rcontainer .column #contact-me {
         margin: 0 auto;
         width: 85%;
     }
+
     /* body .bg .overlay .Rcontainer .column #top-projects .label-container .gif {
         display: none;
     }
@@ -686,8 +831,9 @@ body .bg .overlay .mobile-footer .footer-txt h6 span {
         display: block;
     } */
 }
+
 @media (max-width: 767px) {
-    
+
     /* body .bg .overlay .Rcontainer .column .row .label-container {
         flex: 0 0 100%;
         max-width: 100%;
@@ -702,6 +848,7 @@ body .bg .overlay .mobile-footer .footer-txt h6 span {
         /* background-color: #3d3d3d; */
         padding: 50% 0;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn {
         /* display: flex;
         flex-direction: column;
@@ -710,6 +857,7 @@ body .bg .overlay .mobile-footer .footer-txt h6 span {
         max-width: 100%;
         display: block;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects .label-container .proj-btn button {
         width: 90%;
         height: 35px;
@@ -718,6 +866,7 @@ body .bg .overlay .mobile-footer .footer-txt h6 span {
         /* letter-spacing: 2px; */
     }
 }
+
 @media (max-width: 600px) {
     body .overlay .right-label #home {
         padding-top: 100px;
@@ -725,22 +874,24 @@ body .bg .overlay .mobile-footer .footer-txt h6 span {
         margin: 0 auto 200px;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #about-me {
         margin: 0 auto;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #top-projects {
         margin: 0 auto;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #resume {
         margin: 0 auto;
         width: 100%;
     }
+
     body .bg .overlay .Rcontainer .column #contact-me {
         margin: 0 auto;
         width: 100%;
     }
 }
-
-
