@@ -65,9 +65,14 @@ table {
 
 /* ////////////start header section////////////////////////////////// */
 
+*{
+  scroll-behavior: smooth;
+}
+
+/* 
 body {
   
-}
+} */
 body #header {
   background: white;
   position: fixed;
@@ -200,7 +205,7 @@ body #wide-container #img-container #top-form {
 body #wide-container #img-container #top-form #top-email {
   border: none;
   display: block;
-  width: 87%;
+  width: 405px;
   height: 40px;
   margin-bottom: 5px;
 }
@@ -217,7 +222,7 @@ body #wide-container #img-container #top-form #top-submit {
   box-shadow: 0px 4px 17px -2px rgba(0,0,0,0.75);
   border: none;
   color: white;
-  width: 87%;
+  width: 405px;
   height: 60px;
   font-size: 2rem;
   font-family: 'Racing Sans One', cursive;
@@ -236,21 +241,22 @@ body #wide-container #narrow-container {
   font-family: sans-serif;
   color: #1b1b1b;
 }
-body #wide-container #narrow-container #content-title {
+body #wide-container #narrow-container #features {
+  /* padding-top: 50px; */
+  padding-bottom: 100px;
+}
+body #wide-container #narrow-container #features #content-title {
   display: flex;
   justify-content: center;
   font-weight: 700;
   font-size: 1.8rem;
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 60px;
 }
-body #wide-container #narrow-container #content-title h1 {
+body #wide-container #narrow-container #features #content-title h1 {
   display: flex;
   flex-wrap: center;
   text-align: center;
-}
-body #wide-container #narrow-container #features {
-  padding-bottom: 50px;
 }
 body #wide-container #narrow-container #features .feat-box {
   display: flex;
@@ -283,7 +289,8 @@ body #wide-container #narrow-container #features .feat-box .feat-text p {
   letter-spacing: 1.1px;
 }
 body #wide-container #narrow-container #video-container {
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 200px;
   display: flex;
   justify-content: center;
 }
@@ -297,7 +304,7 @@ body #wide-container #narrow-container #products {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 body #wide-container #narrow-container #products .product-box {
   width: 30%;
