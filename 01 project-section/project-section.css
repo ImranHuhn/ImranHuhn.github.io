@@ -524,9 +524,9 @@ body .overlay .right-label #contact-me .label-container .form-container .name .s
     margin-left: 20px;
 }
 
-body .overlay .right-label #contact-me .label-container .form-container .name .sub-name .lname {
-    /* margin-left: 0; */
-}
+/* body .overlay .right-label #contact-me .label-container .form-container .name .sub-name .lname {
+    margin-left: 0;
+} */
 
 body .overlay .right-label #contact-me .label-container .form-container .email .sub-email {
     padding: 0;
