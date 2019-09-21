@@ -1,0 +1,21 @@
+what i did for Learn HTML and CSS by Building a Cool Social Network "Project 1":
+-I watched the whole video. then tried to do the video's objective myself. even if it's different from joes code.
+-when i get stuck, i would google first. if that doesn's work, i refer back to the video. if that doesn't work, ask for help in the chat or forums. 
+-no copy pasting! i'm allowed that luxury only after my first project.
+
+
+lessons:
+-layout your divs for each sections. do it the way joe does it. when you start a section, put in all the divs so you can get a sense of what the layout looks like in a particular section. I made the mistake of working on one div at a time. by the end of the div or any part where i would get stuck, i'd have to restructure the whole section. so, structure first, then details. 
+-be aware of where your closing tags are. they're automated which makes you forget about them. i've had incidents where i want to manipulate a div but was unaware that it was the child of a child's div. so a div that's inside a div which is also inside a div.
+-have your settings to auto save. i tend to think something didn't work, but it was simply because i didn't save the changes.
+-use websites like codepen.io to test out a new concept. for me, it was for "float".
+-label effectivly so you can reference back to your code.
+-google, google, GOOGLE!!!
+-i didn't do this(wish i did), but i will in the next project. use the comment tool to have notes in your code. I can imagine that this would have made my experience a lot easier.
+-if you're stuck and it's been more than 15 minutes, take the "good enough" route and move on. we ain't got time for details. tryna get a job quick. beside, you'll probably figure it out later in the day, or maybe in future project where you already have a better understanding. trying to make things perfect will waste your time. the goal is repitition. people with the most repitions wins. 
+-use short-cut keys 
+-have visual studios in full screen. helps avoid distractions and puts me in the zone more effectively
+-to find out the width of and element within a container, measure the width of the element and measure the width of the container. divide the the size of the element by the size of the container. yayy math!
+-it's ok to do it the long way when you're learning, but if you can do the shortcut then do it!
+-get the positioning of the elements first. then modify it. i made the mistake of modifying first, so when i get stuck trying to figure out how to position correctly, i would get frustrated bc it's tougher to read because of the additional code. 
+-i think i will follow joes video step by step bc i fear that i'll develop bad coding habits.

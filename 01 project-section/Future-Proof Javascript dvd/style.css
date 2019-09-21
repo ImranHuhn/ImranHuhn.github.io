@@ -1,0 +1,172 @@
+body {
+    background: #1b1b1b;
+}
+body .notifications .notify {
+    display: none;
+}
+body .notifications .active {
+    display: block !important;
+    width: 300px;
+    position: absolute;
+    background: lightgray;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+    padding: 10px 10px 5px 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+body .notifications .active .circle {
+    float: left;
+}
+body .notifications .active .circle i {
+    color: green;
+    font-size: 30px;
+}
+body .notifications .active .info {
+    padding-left: 40px;
+    text-align: center;
+}
+body .notifications .active .info h5 {
+    margin-bottom: 0rem;
+}
+body .notifications .active .info h5 span {
+    color: green;
+}
+body .notifications .active .info .items-total {
+    color: #1b1b1b;
+    font-size: .8rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+body .main-container{
+    /* background-color:lightgrey; */
+    width: 100%;
+    max-width: 1500px;
+}
+body .main-container .header-section h1 {
+    text-align: center;
+    color: #f9f9f9;
+    margin: 50px auto
+}
+body .main-container .selection-section .row .content-box {
+    padding: 20px;
+    width: auto;
+    height: 500px;
+    cursor: pointer
+}
+body .main-container .selection-section .row .content-box img {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+body .main-container .selection-section .row .content-box:hover img {
+    background-color: #ff6666;
+    transform: scale3d(1.1 , 1.1 , 1.1)
+}
+body .main-container .selection-section .row .content-box .info {
+    background: #f9f9f9;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+body .main-container .selection-section .row .content-box:hover .info {
+    background-color: #ff6666;
+    transform: scale3d(1.1 , 1.1 , 1.1)
+}
+body .main-container .selection-section .row .content-box .info .title {
+    display: none;
+}
+body .main-container .selection-section .row .content-box .info h3 {
+    text-align: center;
+    color: #1b1b1b;
+    transition: all .3s ease-in-out;
+}
+body .main-container .selection-section .row .content-box:hover .info h3 {
+    color: #f9f9f9;
+}
+body .main-container .selection-section .row .content-box .info p {
+    text-align: center;
+    color: #1b1b1b;
+    margin: 0 auto;
+    transition: all .3s ease-in-out;
+}
+body .main-container .selection-section .row .content-box:hover .info p {
+    color: #f9f9f9;
+}
+body .main-container .btn-section {
+    margin-top: 140px;
+}
+body .main-container .btn-section button {
+    width: 400px;
+}
+
+@media (max-width: 1200px) {
+    body .main-container .selection-section .row .content-box img {
+        height: 70%;
+    }
+    body .main-container .selection-section .row .content-box .info h3 {
+        font-size: 1.2rem;
+    }
+    body .main-container .selection-section .row .content-box .info p {
+        font-size: .8rem;
+    }
+    body .main-container .btn-section {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    body .main-container .btn-section button {
+        width: 400px;
+    }
+}
+@media (max-width: 900px) {
+    body .main-container .selection-section .row .content-box img {
+        width: 100%;
+        height: 50%;
+        background-color: #f9f9f9;
+        padding: 10px;
+        transition: all .3s ease-in-out;
+    }
+    body .main-container .selection-section .row .content-box .info h3 {
+        font-size: 1rem;
+    }
+    body .main-container .selection-section .row .content-box .info p {
+        font-size: .6rem;
+    }
+    body .main-container .btn-section {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    body .main-container .btn-section button {
+        width: 400px;
+    }
+}
+@media (max-width: 575px) {
+    body .main-container .selection-section .row .content-box img {
+        height: 100%;
+    }
+    body .main-container .selection-section .row .content-box .info h3 {
+        font-size: 1.5rem;
+    }
+    body .main-container .selection-section .row .content-box .info p {
+        font-size: 1rem;
+    }
+    body .main-container .selection-section .row .content-box {
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    body .main-container .btn-section {
+        margin: 50px auto 100px auto;
+    }
+    body .main-container .btn-section button {
+        width: 75%;
+    }
+}

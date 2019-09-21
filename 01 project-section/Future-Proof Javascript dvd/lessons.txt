@@ -1,0 +1,2 @@
+when using position:absolue; use the "left", "right", "top", and "bottom" properties
+use display:none; to hide notification and use display:block!important; with class="active" to have it appear

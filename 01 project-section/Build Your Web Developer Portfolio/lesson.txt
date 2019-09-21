@@ -1,0 +1,5 @@
+- add ""watch":"parcel index.html"," in the script section whithin the package.json file to run the server so that you only need to type "npm run watch" command in the terminal instead of having to type "parcel index.html"
+in vid3 he goes more in depth of why box-sizing: border box is important
+- y indicates vertically, and x indicates horizontally.
+-when targeting a selector like input in "input[type="text"]" there should not be a space after "input"
+-if there is a "form" or "element" that is in front of another "element" and is not staying inplace when resizing the window or scrolling, add "height: auto;" in the form/element .

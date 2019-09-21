@@ -1,0 +1,3 @@
+-"box-sizing: border-box;" should be one of the first things to add in every project.
+-video number2 shows how to turn off the browser sync notifivation on the gulp file
+-"<hr>" or "horizontal ruler" is just a line break with an image of a line

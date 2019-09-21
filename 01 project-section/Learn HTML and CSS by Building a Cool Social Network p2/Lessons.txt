@@ -1,0 +1,19 @@
+what I did:
+
+lessons:
+-build everything as desktop size first, then build for mobile size
+-start media query with highest size to low size interms of css order. however, to modify each media query section, you should start from smallest to highest
+-follow a framework size. for this project we used https://bulma.io/documentation/overview/responsiveness/
+-paste media queries at the end of the main section and each major section of the css
+-when modifying media queries, percentages are encouraged
+-recommend that the devtool dock is at bottom of the browser window bc of width is imortant to measure accurately
+-media query section should only have the properties that are being adjusted and/or adding properties and/or removing properties
+-if a section of a media query is not adjusting properly, it could be from another section of the website that have not been adjusted yet, that is causing this issue.
+-make sure you're viewing your website at 100%, otherwise the breakingpoint of the width will behave differently and be act at a different width.
+
+
+
+
+
+
+

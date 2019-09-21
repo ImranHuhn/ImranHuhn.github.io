@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 18px;
+    background: $color1;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    height: 100%;
+}
+
+.menu-icon{
+    position: fixed;
+    right: 36px;
+    top: 36px;
+    padding: 20px;
+    z-index: 11;
+
+    .fas{
+        font-size: 2rem;
+        color: $color1;
+    }
+}
+
+.primary-btn {
+    text-decoration: none;
+    background: $color1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: $color3;
+    padding: 15px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background: $hoverColor;
+        color: $color1;
+    }
+}
+
+.ghost-btn {
+    text-decoration: none;
+    border: 4px solid $color1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: $color1;
+    padding: 11px 26px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        border-color: $hoverColor;
+    }
+}
+
+.primary-btn, .ghost-btn {
+    margin-bottom: 20px;
+    margin-right: 15px;
+
+}
+
+#menu {
+    background: $color1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    transform: translate3d(-100%,0,0);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+
+    nav {
+        width: 400px;
+        text-align: center;
+
+        a{
+            font-size: 2.3rem;
+            padding: 1rem;
+            display: block;
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: $color5;
+            }
+        }
+    }
+}
+
+.menu-active {
+    .menu-icon{
+        .fas{
+            color: white;
+        }
+    }
+    #menu{
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        transform: translate3d(0,0,0);
+    }
+} 
+
+.scroll-section {
+    height: 100vh;
+    overflow-y: scroll; // y indicates vertically, so this will scroll vertically
+    overflow-x: hidden; // x indicates horizontally, so this will NOT scroll horizontally
+    padding: 56px;
+}

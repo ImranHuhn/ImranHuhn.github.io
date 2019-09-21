@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker:100,200,300,400,600,700,800,900&display=swap');
+
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+
+body {
+  /*   background-color: #a9d7d1; */
+  /*     overflow-x: scroll; */
+  font-family: 'Blinker', sans-serif;
+}
+
+body img {
+  /*   margin-top: -100px; */
+  padding-left: 100px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /*   border-radius: 20%; */
+  /*   margin: 20px 70px; */
+}
+
+body .logo {}
+
+body #wide-container {
+  position: absolute;
+  width: 100%;
+}
+
+body #wide-container #title-container {
+  /*   margin: 0 auto; */
+  width: 60%;
+  /*   background-color: white; */
+  height: 100%;
+  border-radius: 4px;
+  position: relative;
+  z-index: 2;
+  margin-left: 40px;
+  padding: 50px 0;
+}
+
+body #wide-container #title-container img {
+  width: 300px;
+  height: auto;
+  position: relative;
+  padding-left: 0px;
+  margin-left: -100px;
+  margin-top: -50px;
+  margin: -50px 0 -50px -100px
+}
+
+body #title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: #623182;
+  padding-top: 50px;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Blinker', sans-serif;
+  line-height: 1;
+  font-size: 4rem;
+  letter-spacing: 15px;
+  font-weight: 500;
+}
+
+body #title span {
+  font-size: .9rem;
+  letter-spacing: 3px;
+}
+
+body #container {
+  -webkit-box-shadow: 0px 5px 23px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 23px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 23px 5px rgba(0, 0, 0, 0.75);
+  width: 60%;
+  border-radius: 4px;
+  background: rgba(98, 49, 130, .9);
+  position: relative;
+  z-index: 2;
+  margin-left: 40px;
+  height: auto;
+  margin-bottom: 100px;
+  overflow: auto;
+}
+
+body #container #survey-form {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+body #container #survey-form #description {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+/* name */
+body #container #survey-form #name-container {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+body #container #survey-form #name-container #name-left {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #name-container #name-left h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #name-container #name-right {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #name-container #name-right #name {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  max-width: 70%;
+
+}
+
+/* email */
+body #container #survey-form #email-container {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+body #container #survey-form #email-container #email-left {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #email-container #email-left h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #email-container #email-right {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #email-container #email-right #email {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  max-width: 70%;
+}
+
+/* number */
+body #container #survey-form #number-container {
+  width: 100%;
+  padding-bottom: 35px;
+}
+
+body #container #survey-form #number-container #number-left {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #number-container #number-left h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #number-container #number-right {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #number-container #number-right #number {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  width: 100px;
+  max-width: 70%;
+}
+
+/* dropdown 1&2*/
+body #container #survey-form #dropdown {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+body #container #survey-form #dropdown .dropdown-label.L {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #dropdown .dropdown-label.L h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #dropdown .dropdown-label.R {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #dropdown .dropdown-label.R select {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  max-width: 70%;
+}
+
+body #container #survey-form #dropdown .dropdown-label.R select option:hover {
+  cursor: pointer;
+}
+
+/* radiobtn */
+body #container #survey-form #radiobtn {
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+body #container #survey-form #radiobtn .radiobtn-label.L {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #radiobtn .radiobtn-label.L h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #radiobtn .radiobtn-label.R {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #radiobtn .radiobtn-label.R label {
+  display: block;
+  padding-bottom: 10px;
+  color: white;
+}
+
+/* checkbox */
+body #container #survey-form #checkbox {
+  width: 100%;
+  padding-bottom: 700px;
+}
+
+body #container #survey-form #checkbox .checkbox-label.L {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #checkbox .checkbox-label.L h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #checkbox .checkbox-label.R {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #checkbox .checkbox-label.R label {
+  display: block;
+  color: white;
+  line-height: 2;
+}
+
+body #container #survey-form #checkbox .checkbox-label.R label input {
+  cursor: pointer;
+}
+
+body #container #survey-form #checkbox .checkbox-label.R label span {
+  padding-left: 20px;
+}
+
+/* comments */
+body #container #survey-form #comments {
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+body #container #survey-form #comments .comments-label.L {
+  width: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+body #container #survey-form #comments .comments-label.L h3 {
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body #container #survey-form #comments .comments-label.R {
+  width: 50%;
+  float: right;
+  margin-right: -10px;
+}
+
+body #container #survey-form #comments .comments-label.R input {
+  resize: vertical;
+}
+
+/* submit */
+body #container #survey-form #button {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+body #container #survey-form #button #submit {
+  padding: 1.5% 4%;
+  font-size: 1.5em;
+  color: white;
+  background: #0096ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+body #container #survey-form h5 {
+  color: lightgray;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 60px;
+}
+
+body #container #survey-form h5 span {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}

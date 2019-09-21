@@ -1,0 +1,14 @@
+-"box-sizing: border-box;" means that what ever size the border, padding, or margin is; it add up to the given size of the whole element
+-use import to embed new fonts and save the css font in the reset file
+-when using z-index, you must put the image you want in the back as "position: absolute; z-index: 0;" and it's parent as "position: relative". Then for all the other elements that you want in the front and only those elements, they must all have "position: relative; z-index: 1;"
+-when targeting an element that has 2 classes, there must be no spaces in between the class names in the class selector. 
+-cdn for fontawesome should be placed above the main.css link
+-use translate3d() to move things as a transition
+-to have an image animated, you have to create a div for it in html and link the image in css
+-to better control the size of something(like an image) or placement of an element, add a contianer/div and put the element inside of it
+-in transition's, delays are used to activate a transition after the first one has already been activated.
+-"height: 100vh;" means full screen size.
+-<meta name="viewport" content="width=device-width, user-scalable=no"> turns the zoom option off to better adjust the properties for responsive design.
+-you can either put the media query on each section or all in one place
+-buttons should have paddings in mobile versions so that someone with large fingers can be able to properly click it.
+- "../" means to go back one directory or folder when locating a file. 

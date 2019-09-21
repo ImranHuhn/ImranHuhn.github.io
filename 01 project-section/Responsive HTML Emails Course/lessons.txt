@@ -1,0 +1,46 @@
+-in html emails we will structure the css within the html tags. it is standard 
+-in html emails, the standard width for content is 600px
+-every html email starts with a table for the whole page and another table with a maximum width of 600px, then count the total rows the content has
+-must use comments in html emails because since youre styleing within html, it WILL get confusing
+-when commenting when a section start, make sure you also comment where it ends as well. this will make things easier for yourself and others
+-don't use css reset for html/reset. you want the use the default settings
+-when adding css into the element tags, "style" should be the last attribute as common practice. 
+-all quotes("") that is with in quotes("") must be single quotes('')
+-after finishing each row, be sure to add more commits of the where the section starts and ends
+-make sure you know the difference between an html attribute and a css property. it's easy to confuse the two since everything is within the same html tags.
+-the tables make the columns
+-<tr> and <td> most often come hand in hand. specifically <td> is most often nested in <tr> to create a row. 
+-both <td> and <table> should be nested in <tr>
+-<table> = column
+-<tr> = row
+-multi row with single column = stack <tr> with <tr>
+-single row with multi column = stack <table> with <table>
+-multi row with multi column = mix
+-when making webpages, always first think about how to break it down on mobile. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
