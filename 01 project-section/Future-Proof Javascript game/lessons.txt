@@ -1,0 +1,26 @@
+
+JavaScript:
+
+function expression:
+var <name> = function() {
+    <code block>;
+};
+
+function declaration: 
+function <name>() {
+    <code block>;
+};
+
+"data attributes"
+"this.dataset.<name of dataset attribute>"
+"this.<element>"
+"<element>.classList.toggle('active')"
+"document.addEventListener()"
+"document.querySelector()"
+"document.querySelectorAll()"
+"document.getElementById()" no "s" bc there can only be one id perpage
+"document.getElementsByTagName()"
+"<element>.filter(function())"
+
+-if a button is not clicking properly, it maybe an element that is covering it. specifically an element with a padding. you cant click on an element if a padding from another element is covering is. instead, use margin. margin is like an invisible padding. 
+-also, you can use padding to expand the clicking area for mobile use when users have overly large fingers and have difficulty pressing something. or it can be used to expand the area for a mouse hover. 

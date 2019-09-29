@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="./css/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Cabin+Sketch:400,700|Freckle+Face|Press+Start+2P"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="select-screen">
+    <div class="header">
+      <div class="title">
+        Battle of the Worlds
+      </div>
+      <div class="subtitle">
+        Choose a Digimon or Pokemon
+      </div>
+      <div class="mode">
+        VS Mode
+      </div>
+    </div>
+    <div class="main">
+      <!-- ////////////////////////start digimon//////////////////// -->
+      <div class="digi-row">
+        <div class="character Imperialdramon" data-character="Imperialdramon">
+          <div class="title">Imperial-<br>dramon</div>
+          <div style="background: url(./img/strongest_digimon/1Imperialdramon_Paladin_Mode.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Apocalymon" data-character="Apocalymon">
+          <div class="title">Apocalymon</div>
+          <div style="background: url(./img/strongest_digimon/1Apocalymon.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Susanoomon" data-character="Susanoomon">
+          <div class="title">Susan-<br>oomon</div>
+          <div style="background: url(./img/strongest_digimon/1SUSANOOMON.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Khaosmon" data-character="Khaosmon">
+          <div class="title">Khaosmon</div>
+          <div style="background: url(./img/strongest_digimon/1UltimateKhaosmon.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Millenniummon" data-character="Millenniummon">
+          <div class="title">Millen-<br>niummon</div>
+          <div style="background: url(./img/strongest_digimon/1ZEEDMILLENNIUMMON.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+      </div>
+      <!-- ////////////////////////start pokemon//////////////////// -->
+      <div class="poke-row">
+        <div class="character Arceus" data-character="Arceus">
+          <div class="title">Arceus</div>
+          <div style="background: url(./img/strongest_pokemon/1arceus.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Dialga" data-character="Dialga">
+          <div class="title">Dialga</div>
+          <div style="background: url(./img/strongest_pokemon/1dialga.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Giratina" data-character="Giratina">
+          <div class="title">Giratina</div>
+          <div style="background: url(./img/strongest_pokemon/1giratina-origin.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Palkia" data-character="Palkia">
+          <div class="title">Palkia</div>
+          <div style="background: url(./img/strongest_pokemon/1palkia.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+
+        <div class="character Rayquaza" data-character="Rayquaza">
+          <div class="title">Rayquaza</div>
+          <div style="background: url(./img/strongest_pokemon/1rayquaza-mega.gif) no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;height: 150px; width: 150px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="battle-screen">
+    <div class="fight-btn">
+      fight
+    </div>
+    <section class="btn-section">
+      <div class="battle-btns">
+        <div class="rock attack" data-attack="rock">
+          <img src="./img/rock.png" width="100%">
+          Rock
+        </div>
+        <div class="attack paper" data-attack="paper">
+          <img src="./img/paper.png">
+          Paper
+        </div>
+        <div class="attack scissors" data-attack="scissors">
+          <img src="./img/scissors.jpg">
+          Scissors
+        </div>
+      </div>
+    </section>
+      
+
+    <div class="player">
+      <div class="player1">
+        <div class="stats">
+          <div id='name1' class="name">
+            [Name]
+          </div>
+          <div class="level">
+            Lv:<br><span id='level1'>???</span>
+          </div>
+          <div class="health">
+            <div class="title">HP:</div>
+            <div class="health-bar">
+              <div class="inside" style="width: 100%;"></div>
+            </div>
+          </div>
+
+        </div>
+        <img src="./img/strongest_digimon/1Imperialdramon_Paladin_Mode.gif" />
+
+      </div>
+    </div>
+
+    <div class="cpu">
+      <div class="player2">
+        <div class="stats">
+          <div id='name2' class="name">
+            [Name]
+          </div>
+          <div class="level">
+            Lv:<br><span id='level2'>???</span>
+          </div>
+          <div class="health">
+            <div class="title">HP:</div>
+            <div class="health-bar">
+              <div class="inside" style="width: 100%;"></div>
+            </div>
+          </div>
+
+        </div>
+        <img src="./img/strongest_pokemon/1rayquaza-mega.gif" />
+      </div>
+    </div>
+
+    <section id="end-game">
+      <div class="ending">
+        <h1 class="win">You Win!</h1>
+        <h1 class="lose">You Lose!</h1>
+      </div>
+      <div class="end-btn">
+        <button>Play Again</button>
+      </div>
+    </section>
+  </div>
+
+  
+
+
+
+  <script src="./js/regularJS.js"></script>
+</body>
+
+</html>
