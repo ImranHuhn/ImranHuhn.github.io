@@ -235,6 +235,10 @@ body .bg .overlay .mobile-navbar .menu-btn {
     justify-content: flex-end; */
 }
 
+body .bg .overlay .mobile-navbar .menu-btn .icon-container {
+    padding: 15px;
+}
+
 body .bg .overlay .mobile-navbar .menu-btn .fa-bars {
     color: white;
     font-size: 1.3rem;
@@ -310,6 +314,10 @@ body .bg .overlay .mobile-navbar .menu-options .menu-list ul li:hover {
     color: #00b3ff;
 }
 
+body .bg .overlay .mobile-navbar .menu-options .menu-list ul li a {
+    text-decoration: none;
+    color: white;
+}
 
 
 /* end mobile navbar */
