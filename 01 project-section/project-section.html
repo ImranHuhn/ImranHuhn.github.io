@@ -90,25 +90,49 @@
                         <h1 class="logo">Imran Huhn</h1>
                     </div>
                     <div class="menu-btn">
-                        <div class="icon-container">
+                        <div class="icon-container" onclick="mobMenu()">
                             <i class="fas fa-bars"></i>
                         </div>
                     </div>
                 </div>
                 <div class="menu-options">
                     <div class="x-block">
-                        <div class="x-container">
+                        <div class="x-container" onclick="mobMenu()">
                             <i class="fas fa-times"></i>
                         </div>
                     </div>
                     <div class="menu-list">
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Projects</li>
-                            <li>Resume</li>
-                            <li>Contact</li>
-                            <li>GitHub</li>
+                            <li>
+                                <a href="#home" onclick="mobMenu()">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about-me" onclick="mobMenu()">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#top-projects" onclick="mobMenu()">
+                                    Projects
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#resume" onclick="mobMenu()">
+                                    Resume
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact-me" onclick="mobMenu()">
+                                    Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ImranHuhn" target="_blank">
+                                    GitHub
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -305,6 +329,7 @@
             <!-- end right -->
         </div>
     </div>
+    <script src='./project-section.js'></script>
 </body>
 
 </html>
